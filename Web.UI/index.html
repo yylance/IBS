@@ -1,0 +1,227 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>IBS智能化工厂管理系统 V1.0</title>
+    <link rel="icon" href="/Style/Images/logoico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/Style/Images/logoico.ico" type="image/x-icon" />
+    <link rel="bookmark" href="/Style/Images/logoico.ico" type="image/x-icon" />
+    <link href="/Style/CSS/main.css" rel="stylesheet" />
+    <link href="/Style/JS/EasyUI-1.3.4/themes/icon.css?r=1" rel="stylesheet" type="text/css" />
+    <script src="/Style/JS/jquery-1.7.1.min.js"></script>
+    <script src="/Style/JS/json2.js"></script>
+    <script src="/Style/JS/EasyUI-1.3.4/jquery.easyui.min.js"></script>
+    <script src="/Style/JS/AriesJS/Aries.Global.js"></script>
+    <script src="/Style/JS/AriesJS/Aries.Utility.js"></script>
+    <script src="/Style/JS/IBS/main.js"></script>
+    <script type="text/javascript">
+        var themeName = AR.Utility.Cookie.get('sys_theme') || 'DY';
+        document.write('<link id="lk_theme" href="/Style/JS/EasyUI-1.3.4/themes/' + themeName + '/easyui.css?r=1" rel="stylesheet" type="text/css" />');
+    </script>
+    <style>
+        #set_theme {
+            height: 26px;
+            background: #4797e9;
+            display: inline-block;
+            line-height: 26px;
+            text-align: center;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+        }
+
+        .div_menu {
+            line-height: 30px;
+            text-align: center;
+        }
+
+            .div_menu ul {
+                display: none;
+                position: relative;
+                border-radius: 4px;
+            }
+
+            .div_menu li {
+                width: 120px;
+                height: 30px;
+                background: #4797e9;
+                float: left;
+                margin-left: -18px;
+                cursor: pointer;
+                position: relative;
+                border-top: none;
+                border-bottom: none;
+            }
+
+                .div_menu li:nth-child(1) {
+                    border-radius: 4px 4px 0 0;
+                }
+
+                .div_menu li:nth-child(4) {
+                    border-radius: 0 0 4px 4px;
+                }
+
+                .div_menu li a {
+                    color: #fff;
+                }
+
+
+        .wrap a {
+            text-decoration: none;
+        }
+
+        .wrap {
+            width: auto;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+            .wrap label {
+                text-align: right;
+                display: inline-block;
+                width: 80px;
+            }
+
+            .wrap input {
+                margin: 15px auto;
+                display: inline-block;
+                width: 200px;
+                height: 30px;
+                padding-left: 5px;
+                color: #333;
+                border: solid #bbb 1px;
+                line-height: 30px;
+            }
+
+        .btn {
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .red {
+            background-color: #bc489b;
+            margin: 10px 20px 0 100px;
+        }
+
+        .blue {
+            background-color: #15a4fa;
+        }
+    </style>
+
+    <!--[if IE]>
+        <style type="text/css">
+            #div_menus {padding-top:40px;}
+        </style>
+    <![endif]-->
+</head>
+<body>
+    <div class="easyui-layout" style="width: 100%;" data-options="fit:true" id="layout_container">
+        <!--顶部-->
+        <div data-options="region:'north',split:false,border:false" title="">
+            <!-- header -->
+            <div id="header" class="layout_header">
+                <!-- logo区 -->
+                <div class="logodiv"><img id="logo" src="/Style/Images/logo_H.png" /></div>
+                <!-- 右功能区 -->
+                <div id="headerRight" class="header_right">
+                    <div class="header-nav fr">
+                        <ul>
+                            <li><div><div class="icon-setting-gry" style="width: 22px;height: 22px;"></div><a>设置</a></div></li>
+                            <li><div><div class="icon-question-gry" style="width: 22px;height: 22px;"></div><a>帮助</a></div></li>
+                            <li><div id="btn_about"><div class="icon-details-gry" style="width: 22px;height: 22px;"></div><a>关于</a></div></li>
+                            <li><div id="btn_refresh"><div class="icon-fresh-gry" style="width: 22px;height: 22px;"></div><a>刷新</a></div></li>
+
+
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div data-options="region:'center',iconCls:'icon-ok'" style="width: 100%">
+            <div class="easyui-layout" data-options="fit:true">
+                <!-- north导航 -->
+                <div data-options="region:'north',split:false,border:false" style="height:40px">
+                    <div class="panel-top">
+                        <div id="lbUserName" class="panel-login"></div>            
+                        <div class="panel-nav">
+                            <ul id="ul_guid"></ul>
+                        </div>
+                    </div>
+                </div>
+                <!--center标签区-->
+                <div data-options="region:'center',iconCls:'icon-ok'" style="width: 100%">
+                    <div id="tabs" class="easyui-tabs" data-options="fit:true,border:false,cache:false">
+                    </div>
+                </div>
+                <!--标签控制菜单-->
+                <div id="mm" class="easyui-menu" style="width: 150px;display:none;">
+                    <div id="mm-tabclose">关闭</div>
+                    <div id="mm-tabcloseall">全部关闭</div>
+                    <div id="mm-tabcloseother">除此之外全部关闭</div>
+                    <div class="menu-sep"></div>
+                    <div id="mm-tabcloseright">当前页右侧全部关闭</div>
+                    <div id="mm-tabcloseleft">当前页左侧全部关闭</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--用户信息菜单-->
+        <div id="lbUserName_menu" class="easyui-menu" style="width:30px; display :none ;">
+            <ul class="mouseover-menu">
+                <li><div id="btn_modify"><a>修改密码</a></div></li>
+                <li><div id="btn_exit"><a href="/logout.html">退出</a></div></li>
+            </ul>
+
+        </div>
+
+        <!--2级悬停菜单-->
+        <div id="ul_power_menu_2" class="easyui-menu" style="width:80px; display :none ;">
+            <ul id="ul_power_2" class="mouseover-menu"></ul>
+        </div>
+        <!--3级悬停菜单-->
+        <div id="ul_power_menu_3" class="easyui-menu" style="width:80px; display :none ;">
+            <ul id="ul_power_3" class="mouseover-menu"></ul>
+        </div>
+        <!--about弹窗-->
+        <div id="about_window" class="about-div"  >
+            <p>公司名称：湖北京山轻工机械股份有限公司</p>
+            <p>地址：湖北省京山县京山经济技术开发区京山轻机工业园 邮编：431899</p>
+            <p>客户服务中心：400-168-9696</p>
+        </div>
+
+    </div>
+
+
+    <!--获取用户信息-->
+    <script>
+        AR.Global.GetUser(function (data) {AR.Utility.Window.open
+            var fullname = data.fullname;
+            $("#lbUserName").html('【' + fullname + '】');
+            AR.Utility.Cookie.set("cookie_fullname", fullname);
+        });
+        //function refreshPageClick() {
+        //    location.reload();
+        //};
+        //function AboutClick() {
+        //    var that = $(this);
+        //    AR.Utility.Window.showMsg('About');
+        //    AR.Utility.Window.open("/Web/BaseInfo/CustomList.html","newwindow","false","height=300,width=500,top=100,left=100");
+        //}
+    </script>
+
+
+</body>
+</html>

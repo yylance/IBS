@@ -1,0 +1,1 @@
+SELECT a.ID,CompanyCode,Phonetic FROM tSupplier a

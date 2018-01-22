@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div class="paperboard-flow">
+        <div>
+            <form>
+                <input type="button" value="开始" onClick="timedCount()">
+                <input type="text" id="txt">
+                <input type="button" value="暂停" onClick="stopCount()">
+            </form>
+        </div>
+        <ul id="conveyor" class="conveyor">
+            <li><div id="A1" class="n" style="left:60px;top:435px;"></div></li>
+            <li><div id="A2" class="n" style="left:60px;top:398px;"></div></li>
+            <li><div id="A3" class="n" style="left:60px;top:361px;"></div></li>
+            <li><div id="A4" class="n" style="left:60px;top:324px;"></div></li>
+
+            <li><div id="A5" class="e" style="left:108px;top:277px;"></div></li>
+            <li><div id="A6" class="e" style="left:145px;top:277px;"></div></li>
+            <li><div id="A7" class="e" style="left:187px;top:277px;"></div></li>
+
+            <li><div id="B1" class="n" style="left:144px;top:435px;"></div></li>
+            <li><div id="B2" class="n" style="left:144px;top:398px;"></div></li>
+
+            <li><div id="B3" class="e" style="left:189px;top:349px;"></div></li>
+
+            <li><div id="C1" class="car car1" style="left:219px;top:192px;background-color:transparent"><div id="D1" class="e" style="left:10px;top:50px;"></div></div></li>
+            <li><div id="C2" class="car car2" style="left:219px;top:312px;background-color:transparent"><div id="D2" class="e" style="left:10px;top:33px;"></div></div></li>
+
+            <li><div id="E1" class="e" style="left:280px;top:236px;"></div></li>
+            <li><div id="E2" class="e" style="left:280px;top:276px;"></div></li>
+            <li><div id="E3" class="e" style="left:280px;top:348px;"></div></li>
+            <li><div id="E4" class="e" style="left:280px;top:391px;"></div></li>
+
+            <li><div id="F1" class="e" style="left:645px;top:346px;"></div></li>
+            <li><div id="F2" class="e" style="left:645px;top:277px;"></div></li>
+
+            <li><div id="G1" class="e" style="left:1040px;top:290px;"></div></li>
+            <li><div id="G2" class="e" style="left:1040px;top:335px;"></div></li>
+        </ul>
+    </div>
+    <div style="width:360px;height:650px;float:right;padding:10px;">
+        <div id="grid" title="物流状态表" ></div>
+    </div>
+
+</body>
+</html>
+<script>
+
+            var dg = new AR.DataGrid("tPaperBoardFlow", "tPaperBoardFlow", "grid");
+            dg.isEditor = true;
+            dg.options = {
+                sortName: "Code asc",
+                pagination: false,
+                pageSize: 20,
+            };
+            dg.bind();
+            //var c = 0;
+            //var t;
+            //var conveyor = $("#conveyor");
+            //var conveyor1 = $("#conveyor1");
+            //function timedCount() {
+            //    document.getElementById('txt').value = c;
+            //    c = c + 1;
+            //    t = setTimeout("timedCount()", 1000);
+            //}
+
+            //$('#conveyor>li .car').mousedown(function (event) {
+            //    var isMove = true;
+            //    var that = $(this);
+            //    var abs_x = event.pageX - that.offset().left;
+            //    var abs_y = event.pageY - that.offset().top;
+            //    $(document).mousemove(function (event) {
+            //        if (isMove) {
+            //            var obj = that;
+            //            obj.css({/* 'left': event.pageX - abs_x,*/ 'top': event.pageY - abs_y });
+            //        }
+            //    }).mouseup(
+            //        function () {
+            //            isMove = false;
+            //        });
+            //});
+            //function stopCount() {
+            //    clearTimeout(t);
+            //    conveyorMove()
+            //}
+            //function conveyorMove() {
+            //    conveyor1.show();
+            //}
+
+</script>

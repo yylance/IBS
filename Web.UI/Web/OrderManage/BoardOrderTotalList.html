@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>纸板订单库</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+    <script src="/Style/JS/AriesJS/Aries.Global.js"></script>
+</head>
+<body>
+
+            <div id="mgrid" ></div>
+
+        <script type="text/javascript">
+            var dg = new AR.DataGrid("V_IBS_BoardOrderTotalList", "tPaperBoardOrderDetail", "mgrid");
+            dg.isEditor = false;
+            dg.isShowCheckBox = true;
+            dg.ToolArea.isHidden = false;           
+            dg.ToolBar.BtnAdd.isHidden = true;
+            dg.ToolBar.BtnDelBatch.isHidden = true;
+            dg.ToolBar.BtnImport.isHidden = true;
+            dg.ToolBar.BtnExportTemplate.isHidden = true;
+            dg.options.fitColumns = false;
+            dg.bind();         
+            
+        </script>
+
+
+
+</body >
+
+</html >

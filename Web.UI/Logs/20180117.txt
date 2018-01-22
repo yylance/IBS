@@ -1,0 +1,353 @@
+
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:00:29 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sqlhttp://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.8792068978832019
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:01:33 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.8792068978832019
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.18309904965878632
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:01:36 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.18309904965878632
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.21809816092384415
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:01:39 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.21809816092384415
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.9756563954434023
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:01:44 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.9756563954434023
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.5238529611599942
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:01:48 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.5238529611599942
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.08091989650159048
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:14:08 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.08091989650159048
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />ExeNonQuery():过程或函数 'GetPaperStockReport' 需要参数 '@EndDate'，但未提供该参数。<br />
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:16:04 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:37:15 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 11:44:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:41:48 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sqlhttp://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.8066094289565409
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:47:34 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.8066094289565409
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.3384507095193727
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:47:46 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.3384507095193727
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.493566923427605
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 13:57:07 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.493566923427605
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.9776013227445848
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 14:05:54 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.9776013227445848
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.41481619249389734
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 14:12:17 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.41481619249389734
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.18186279311373177
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 14:19:23 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.18186279311373177
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.7735628435733843
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 14:20:38 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.7735628435733843
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.28623988265602973
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 14:37:18 http://localhost:27532/web/PaperReport/ajax.html?sys_method=RunProcNoQueryWithpara&sys_objName=GetPaperStockReport&sys_rnd=0.28623988265602973
+Referer:http://localhost:27532/web/PaperReport/PaperStockReport.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />ExeNonQuery():从数据类型 nvarchar 转换为 date 时出错。<br />
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:21:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sqlhttp://localhost:27532/Web/OrderScheduling/ajax.html?sys_method=GetList&sys_objName=tPlanOrderItems&sys_tableName=tPlanOrderItems
+Referer:http://localhost:27532/Web/OrderScheduling/TobeScheduled.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:22:12 http://localhost:27532/Web/OrderScheduling/ajax.html?sys_method=GetList&sys_objName=tPlanOrderItems&sys_tableName=tPlanOrderItems
+Referer:http://localhost:27532/Web/OrderScheduling/TobeScheduled.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeScalar():列名 'IsScheduled' 无效。<br />MsSql.DCS.SQL: <br />select count(*) from [tPlanOrderItems] where IsScheduled = '0' <br />ExeScalar():列名 'IsScheduled' 无效。<br />http://localhost:27532/Web/OrderScheduling/ajax.html?sys_method=GetList&sys_objName=tPlanOrderItems&sys_tableName=tPlanOrderItems
+Referer:http://localhost:27532/Web/OrderScheduling/TobeScheduled.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-17 19:23:00 http://localhost:27532/Web/OrderScheduling/ajax.html?sys_method=GetList&sys_objName=tPlanOrderItems&sys_tableName=tPlanOrderItems
+Referer:http://localhost:27532/Web/OrderScheduling/TobeScheduled.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeScalar():列名 'IsScheduled' 无效。<br />MsSql.DCS.SQL: <br />select count(*) from [tPlanOrderItems] where IsScheduled = '0' <br />ExeScalar():列名 'IsScheduled' 无效。<br />

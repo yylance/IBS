@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style="height: 300px;">
+        <table id="grid"></table>
+    </div>
+    <div style="height: 200px;">
+        <table  id="grid1"></table>
+    </div>
+    <div style="height: 200px;">
+        <table id="grid2"></table>
+    </div>
+    <div style="height: 200px;">
+        <table id="grid3"></table>
+    </div>
+    
+</body>
+
+</html>
+<script type="text/javascript">
+    var dg;
+    if (!dg) {
+        dg = new AR.DataGrid("tTest", "tTest", "grid");
+        dg.PKColumn.add("edit", "编辑", null, "TestEdit.html", "原纸入库明细表Test", "edit");
+        dg.PKColumn.add("del", "删除", null, null, null, "del");
+        dg.bind();
+    }
+    else {
+        dg.reload();
+    }
+    var dg1;
+    if (!dg1) {
+        dg1 = new AR.DataGrid("tTest1", "tTest1", "grid1");
+        dg1.isEditor = true;
+        dg1.bind();
+    }
+    else {
+        dg1.reload();
+    var dg2;
+    if (!dg2) {
+        dg2 = new AR.DataGrid("tTest2", "tTest2", "grid2");
+        dg2.isEditor = true;
+        dg2.bind();
+    }
+    else {
+        dg2.reload();
+    }
+    var dg3;
+    if (!dg3) {
+        dg3 = new AR.DataGrid("tTest3", "tTest3", "grid3");
+        dg3.isEditor = true;
+        dg3.bind();
+    }
+    else {
+        dg3.reload();
+    }
+
+</script>
+
+
+

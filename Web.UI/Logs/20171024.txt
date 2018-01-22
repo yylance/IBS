@@ -1,0 +1,293 @@
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.48050486565597195
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 16:33:11 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.48050486565597195
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperType' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,Name AS text FROM tPaperType<br />ExeDataReader():对象名 'tPaperType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8787370910149979
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 17:54:52 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8787370910149979
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():列名 'PaerCode' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT ID AS value,PaerCode AS text FROM tPaperType<br />ExeDataReader():列名 'PaerCode' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.537142910178088
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 17:54:52 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.537142910178088
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():列名 'PaerCode' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT ID AS value,PaerCode AS text FROM tPaperType<br />ExeDataReader():列名 'PaerCode' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9487100660538263
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 17:55:54 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9487100660538263
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():列名 'PaerCode' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT ID AS value,PaerCode AS text FROM tPaperInfo<br />ExeDataReader():列名 'PaerCode' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.26191816569238957
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 17:55:54 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.26191816569238957
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():列名 'PaerCode' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT ID AS value,PaerCode AS text FROM tPaperInfo<br />ExeDataReader():列名 'PaerCode' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8822746994184671
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:00:40 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8822746994184671
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6376132270100367
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:00:40 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6376132270100367
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6437526614549669
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:02:59 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6437526614549669
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.026340404541291495
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:02:59 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.026340404541291495
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.21539061185760683
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:04:13 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.21539061185760683
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.10228167117830888
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:04:13 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.10228167117830888
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.07280915149946865
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:07:51 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.07280915149946865
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5393708355791148
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:07:51 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5393708355791148
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8929563523206201
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:12:57 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8929563523206201
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.02408618733295398
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:12:57 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.02408618733295398
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.40256441839529155
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:18:49 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.40256441839529155
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8343447080410263
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:18:49 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8343447080410263
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5193503564300754
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:23:15 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5193503564300754
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7188453304986395
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:27:18 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7188453304986395
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.355558592328054
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:27:18 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.355558592328054
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.07502348097938921
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 18:34:40 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.07502348097938921
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,CompanyName AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.43512901664902753
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:00:00 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.43512901664902753
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5073862594316354
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:00:00 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5073862594316354
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6283885171696326
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:01:50 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6283885171696326
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.640530776259703
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:01:50 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.640530776259703
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8984345563073447
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:04:42 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8984345563073447
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.16766945730062183
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:04:42 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.16766945730062183
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.3930284148822838
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:08:40 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.3930284148822838
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.35643389121773594
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:08:40 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.35643389121773594
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.16775790850936378
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:13:36 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.16775790850936378
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5864231358304716
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:13:36 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5864231358304716
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.4969645425907815
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:13:54 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.4969645425907815
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8427072905879129
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:13:54 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8427072905879129
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6556041693875833
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:22:57 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.6556041693875833
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.641065580591275
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:22:57 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.641065580591275
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tPaperInfo' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,PaperCode AS text FROM tPaperInfo;SELECT ID AS value,Phonetic AS text FROM tSupplier<br />ExeDataReader():对象名 'tPaperInfo' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.7383547689823535
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:15 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.7383547689823535
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【123456】
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.33536819856612765
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:19 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.33536819856612765
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【123456】
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.8321746006681614
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:24 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.8321746006681614
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【123456】
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.9975556278638002
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:32 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.9975556278638002
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【12345634352】
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.7665263047605504
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:42 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.7665263047605504
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【12345634352】
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.5994263838972749
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/24 19:54:52 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockIn&sys_tableName=tPaperStockIn&sys_rnd=0.5994263838972749
+Referer:http://localhost:27532/web/PaperManage/PaperStockInEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error：ColumnName【StockInID】(System.Guid) ， Value：【1234124】

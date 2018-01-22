@@ -1,0 +1,211 @@
+http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 8:46:09 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.11024023038387498
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 17:57:33 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 17:58:19 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 17:58:34 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 17:59:20 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 17:59:35 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 18:00:33 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.7437415570926919
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:22:24 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.21345551034250032
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:24:31 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.15924601896237078
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:26:48 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:27:34 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:27:49 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:28:35 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:28:50 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\16 星期一 20:29:48 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.8237502656366081
+Referer:http://localhost:27532/
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)<br />

@@ -1,0 +1,29 @@
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017-09-21 15:55:43 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'tPaperType' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,Name AS text FROM tPaperType;<br />ExeDataReader():对象名  'tPaperType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017-09-21 15:56:55 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'tPaperType' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,Name AS text FROM tPaperType;<br />ExeDataReader():对象名  'tPaperType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_method=Export
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017-09-21 15:59:46 http://localhost:27532/web/PaperManage/ajax.html?sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_method=Export
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'tPaperType' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,Name AS text FROM tPaperType;<br />ExeDataReader():对象名  'tPaperType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017-09-21 16:01:03 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Import&sys_objName=tPaperInfo&sys_tableName=tPaperInfo&sys_mid=e9867a78-1308-41ea-8839-dca9f37d8a03
+Referer:http://localhost:27532/web/PaperManage/PaperInfoList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'tPaperType' 无效。<br />MsSql.IBS_SYS.SQL: <br />SELECT ID AS value,Name AS text FROM tPaperType;<br />ExeDataReader():对象名  'tPaperType' 无效。<br />

@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+    <!--原纸卷标自动填写-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var _newpaperlabel = $("input#newpaperlabel");
+            var _inoutstate = $("input#inoutstate");
+            if (_newpaperlabel.val() == "") {
+                var _crrtime = new Date();
+                var _defauttime = _crrtime.format("yyyyMMddhhmmss");//默认制单时间为当前时间，对时间格式化处理,yyyy-MM-dd hh:mm:ss
+                var _papercode = $("input#papercode");
+                var _paperwidth = $("input#paperwidth");
+                //var _stockhousecode = $("input#stockhousecode");
+                 _paperwidth.keyup(function () {
+                    Calculate();
+                });
+                _papercode.combobox({
+                    onChange: function (newValue, oldValue) {
+                        Calculate();
+                    }
+                });
+                //_stockhousecode.combobox({
+                //    onChange: function (newValue, oldValue) {
+                //        Calculate();
+                //    }
+                //});
+            }
+            //function Calculate() {
+            //    _newpaperlabel.val(_defauttime + '-' + _stockhousecode.combobox('getValue') + '-' + _paperwidth.val() + '-' + _papercode.combobox('getValue') );
+          
+            //}
+            function Calculate() {
+                _newpaperlabel.val(_defauttime + '-' + _paperwidth.val() + '-' + _papercode.combobox('getValue'));
+
+            }
+        });
+
+    </script>
+
+</head>
+<body>
+    <!--对应主表信息-->
+    <DIV class=cont-box-in>
+        <DIV class=cont-box-form>
+            <DIV class=line style="height:87px">
+                <div id="mgrid" title="入库基本信息"></div>
+            </DIV>
+        </DIV>
+    </DIV>
+    <!--从表明细表单-->
+    <DIV class=cont-box-in>
+        <DIV class=cont-box-form>
+            <FORM>
+                <DIV class=line>
+                    <DIV class=short>
+                        <LABEL><em>*</em>供应商：</LABEL>
+                        <input name="supplierid" objname="C_Supplier_ID2Description" pattern="=" type="text" validtype="combobox" required="required" style="width:150px;">
+                    </DIV>
+                    <div id="paperidcombobox" class="long">
+                        <label><em>*</em>原纸编码：</label>
+                        <input id="papercode" name="papercode" objname="C_Paper_Code2Description" pattern="=" type="text" validtype="combobox" required="required" style="width:150px;">
+                    </div>
+
+                </DIV>
+                <div class="line">
+                    <div class=short>
+                        <LABEL><em>*</em>幅宽：</LABEL>
+                        <INPUT id="paperwidth" name="paperwidth" class="easyui-numberbox easyui-validatebox" type=text pattern="like" required="required" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label><em>*</em>外径(mm)：</label>
+                        <input name="outerdiameter" type="text" pattern="like" class="easyui-numberbox easyui-validatebox" required="required" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label><em>*</em>内径(mm)：</label>
+                        <input name="innerdiameter" type="text" pattern="like" class="easyui-numberbox easyui-validatebox" required="required" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label><em>*</em>重量(T)：</label>
+                        <input name="inweight" type="text" pattern="like" precision="3" class="easyui-numberbox easyui-validatebox" required="required" validtype="length[1,13]">
+                    </div>
+                    <div class="long">
+                        <label><em>*</em>米长(m)：</label>
+                        <input name="length" type="text" pattern="like" class="easyui-numberbox easyui-validatebox" required="required" validtype="length[1,5]">
+                    </div>
+                </div>
+                <div class="line">
+                    <div class=long>
+                        <label><em>*</em>仓库：</label>
+                        <input id="stockhousecode" name=stockhousecode objname="C_StockHouse_Code" pattern="=" type="text" required="required" validType="combobox" style="width:150px;">
+                    </div>
+                </div>
+                <div class=line>
+                    <div class="short">
+                        <label><em>*</em>卷标：</label>
+                        <input id="newpaperlabel" type="text" pattern="like" name="newpaperlabel" class="easyui-validatebox" validtype="length[1,50]" style="width:200px;" readonly="readonly">
+                    </div>
+                    <div class=long>
+                        <label>RFIDCode：</label>
+                        <input name=rfidcode class=easyui-validatebox type=text style=" width:200px" pattern="like" validtype="length[1,50]">
+                    </div>
+                </div>
+
+                <DIV class=line>
+                    <LABEL>用户备注：</LABEL>
+                    <textarea rows="2" cols="50" maxlength="50" placeholder="最多可输入50字..." wrap="hard" name="memo"></textarea>
+                </DIV>
+                <DIV class=btn>
+                    <A><INPUT class=submit></A>
+                    <A><INPUT class=return></A>
+                    
+                </DIV>
+                <INPUT name="id" type=hidden>
+                <INPUT id="newStockInID" name=newstockinid type=hidden>
+                <INPUT id="inoutstate" name=inoutstate type=hidden>
+            </FORM>
+        </DIV>
+    </DIV>
+
+    <script type="text/javascript">
+
+
+    /*获取cook值*/
+    $(function () {
+        var newStockInID = AR.Utility.Cookie.get("NewStockInID");
+        $("input#newStockInID").val(newStockInID);
+        var mdg = new AR.DataGrid("V_IBS_PaperStockIn", "", "mgrid");
+        mdg.isEditor = false;
+        mdg.ToolArea.isHidden = true;
+        mdg.isShowCheckBox = false;
+
+        mdg.options = {
+            rownumbers: false,
+            pagination: false,
+        }
+        mdg.addWhere("ID", newStockInID, "like");
+        mdg.bind();
+    })
+
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=AddPromission&sys_objName=Sys_Menu&sys_rnd=0.0421819746209362
+Referer:http://localhost:27532/Web/SysAdmin/RoleAction.html?id=d8e1ae3b-8451-436a-a59b-c7516e711b9c
+---------------------------------------
+V5.7.7.2 Record On : 2017-09-19 10:24:35 http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=AddPromission&sys_objName=Sys_Menu&sys_rnd=0.0421819746209362
+Referer:http://localhost:27532/Web/SysAdmin/RoleAction.html?id=d8e1ae3b-8451-436a-a59b-c7516e711b9c
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾MenuID¡¿(System.Guid) £¬ Value£º¡¾undefined¡¿

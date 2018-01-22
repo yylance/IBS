@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+    <!--原纸说明自动填写的相关代码-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var _inputptype = $("input#ptype");
+            var _inputweight = $("input#pweight");
+            var _pdescr = $("input#pdescription");
+
+            _inputptype.keyup(function () {
+                setdescriptionval(_pdescr, _inputptype.val(), _inputweight.val());
+            });
+            _inputweight.keyup(function () {
+                setdescriptionval(_pdescr, _inputptype.val(), _inputweight.val());
+            });
+        });
+        function setdescriptionval(a,b,c)
+        {            
+            a.val(b + "(" + c + "g)");
+        }
+    </script>
+        
+</head>
+<body>
+    <form>
+        <div class="cont-box">
+            <div class="cont-box-tit">
+                <h3>原纸资料<a class="arrows hover"></a></h3>
+            </div>
+        </div>
+        <div class="cont-box-in">
+            <div class="cont-box-form">
+                <div class="line">
+                    <div class="short">
+                        <label>原纸编码：</label>
+                        <input id="pcode" type="text" pattern="like" name="papercode" class="easyui-validatebox" validtype="length[1,10]">
+                    </div>
+                    <div class="short">
+                        <label>原纸材质：</label>
+                        <input id="ptype" type="text" style="width:150px" name="papertype" objname="C_Paper_Type" pattern="=">
+                    </div>
+                    <div class="short">
+                        <label>原纸克重：</label>
+                        <input id="pweight" type="text" pattern="like" precision="2" name="paperunitweight" class="easyui-numberbox easyui-validatebox" validtype="length[1,21]">
+                    </div>
+                    <div class="long">
+                        <label>原纸说明：</label>
+                        <input id="pdescription" type="text" pattern="like" name="paperdescription" class="easyui-validatebox" validtype="length[1,50]">
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="short">
+                        <label>破裂强度：</label>
+                        <input type="text" pattern="like" precision="2" name="paperburstingstrength" class="easyui-numberbox easyui-validatebox" validtype="length[1,21]">
+                    </div>
+                    <div class="short">
+                        <label>环压：</label>
+                        <input type="text" pattern="like" precision="2" name="paperring" class="easyui-numberbox easyui-validatebox" validtype="length[1,21]">
+                    </div>
+                    <div class="long">
+                        <label>厚度：</label>
+                        <input type="text" pattern="like" precision="2" name="paperthickness" class="easyui-numberbox easyui-validatebox" validtype="length[1,21]">
+                    </div>
+                </div>
+                <div class="line">
+                    <label>备注：</label>
+                    <textarea rows="2" cols="50" maxlength="50" placeholder="最多可输入50字..." wrap="hard"name="papermemo" ></textarea>
+                </div>
+                <div class="btn">
+                    <a><input class="submit"></a>
+                    <a><input class="return"></a>
+                    <input type="hidden" name="id">
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

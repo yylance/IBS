@@ -1,0 +1,1 @@
+SELECT i.* FROM tPaperNewStockInDetail i

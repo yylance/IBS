@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <form>
+        <div class="cont-box">
+            <div class="cont-box-tit">
+                <h3>原纸安全存量<a class="arrows hover"></a></h3>
+            </div>
+        </div>
+        <div class="cont-box-in">
+            <div class="cont-box-form">
+                <div class="line">
+                    <!--
+                    <div class="short">
+                        <label>PaperID：</label>
+                        <input id ="iPaperID" type="text" pattern="like" name="paperid" class="easyui-validatebox" validtype="length[1,36]">
+                    </div>
+                        -->
+                    <div class="long">
+                        <label>幅宽：</label>
+                        <input type="text" pattern="like" name="paperweb" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+
+                </div>
+                <div class="line">
+                    <div class="short">
+                        <label>最小库存(吨)：</label>
+                        <input type="text" pattern="like" name="minsafestock" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="long">
+                        <label>最大库存(吨)：</label>
+                        <input type="text" pattern="like" name="maxsafestock" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="line">
+                        <div class="long">
+                            <label>定购量：</label>
+                            <input type="text" pattern="like" name="orderpoint" class="easyui-validatebox" validtype="length[1,50]">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a><input class="submit" type="submit" name="保存" value="" /></a>
+                    <a><input class="return" type="submit" name="取消" value="" /></a>
+
+                    <input id ="iPaperID" type="hidden" name="paperid">
+
+                    <input type="hidden" name="safestockid">
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    $(function () {
+        /*获取cook值*/
+        var ipaperid = AR.Utility.Cookie.get("PaperID");
+        $("input#iPaperID").val(ipaperid);
+        //alert(ipaperid);
+        //alert($("input#myid").val());
+    })
+</script>

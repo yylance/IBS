@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <!--对应主表信息-->  
+    <DIV class=cont-box-in>
+        <DIV class=cont-box-form>
+            <DIV class=line style="height:87px">
+                <div id="mgrid" title="订单基本信息"></div>
+            </DIV>
+        </DIV>
+    </DIV>
+         
+    <!--从表明细表单-->
+    <div class="cont-box-in">
+        <div class="cont-box-form">
+            <form>
+                <div class="line">
+                    <div class="short">
+                        <label>订单明细号：</label>
+                        <input type="text" pattern="like" name="internalordercode" class="easyui-validatebox" validtype="length[1,50]" />
+                    </div>
+                    <div class="short">
+                        <label>交货日期：</label>
+                        <input type="text" pattern="like" name="deliverdate" class="easyui-datebox easyui-validatebox" date="true" validtype="datebox" style="width: 150px;" />
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="line">
+                    <div class="short">
+                        <label>订购纸质编码：</label>
+                        <input id="iOrderBoardInfoID" style="width: 150px;" type="text" name="orderboardinfoid" objname="C_Board_ID2Code" pattern="=" onchange="onchange" />
+                    </div>
+
+                        <div class="short">
+                            <label>楞型：</label>
+                            <input type="text" name="orderflutesformulaid" objname="C_FlutesFormulas_FormulaCode" pattern="=" style="width: 150px;">
+                        </div>
+                    <div class="short">
+                        <label>订单数量：</label>
+                        <input type="text" pattern="like" name="quantity" class="easyui-numberbox easyui-validatebox" validtype="length[1,10]" />
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="line">
+                    <div class="short">
+                        <label style="margin-top: 30px;">订购纸质：</label>
+                        <div style="width:366px;height:58px">
+                            <div id="grid"></div>
+                        </div>
+                    </div>
+                    <button class="autoFill" style="margin-top: 28px;" type="button" onclick="autoFill()">复制</button>
+                </div>
+
+
+
+                <div style="clear: both;"></div>
+                <div class="line">
+                    <div class="short">
+                        <label>生产纸质：</label>
+                        <table style="margin-bottom: 12px;">
+                            <!--<tr>
+                                <th>面纸</th>
+                                <th>SC1瓦</th>
+                                <th>SC1面</th>
+                                <th>SC2瓦</th>
+                                <th>SC2面</th>
+                                <th>SC3瓦</th>
+                                <th>SC3面</th>
+                            </tr>-->
+                            <!--<tr>
+                                <td style="width:25px;"></td>
+                                <td><input style="width:50px;" type="text" name="dc" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc1core" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc1line" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc2core" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc2line" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc3core" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                                <td><input style="width:50px;" type="text" name="sc3line" objname="C_Paper_Code2Code" defaultItem=false pattern="="></td>
+                            </tr>-->
+
+                            <tr>
+                                <td><input id="dc" type="text" name="dc" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc1core" type="text" name="sc1core" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc1line" type="text" name="sc1line" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc2core" type="text" name="sc2core" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc2line" type="text" name="sc2line" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc3core" name="sc3core" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                                <td><input id="sc3line" type="text" name="sc3line" class="table-input easyui-validatebox" validtype="length[0,10]" pattern="="></td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+
+                </div>
+
+                <div style="clear: both;"></div>
+
+
+                <!--<div style="clear: both;"></div>-->
+                <div class="line">
+                    <div class="short">
+                        <label>订购板长：</label>
+                        <input type="text" pattern="like" name="orderlength" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label>订购板宽：</label>
+                        <input type="text" pattern="like" name="orderwidth" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="short">
+                        <label>生产板长：</label>
+                        <input type="text" pattern="like" name="productionlength" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="long">
+                        <label>生产板宽：</label>
+                        <input type="text" pattern="like" name="productionwidth" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                </div>
+                <!--<div style="clear: both;"></div>-->
+
+                <div class="line">
+                    <label><em>*</em>压线类型：</label>
+                    <div class="formRad">
+                        <input type="radio" name="linetype" id="linetype_1" checked="checked" value="1" /><span>类型一</span>
+                        <input type="radio" name="linetype" id="linetype_2" value="2" /><span>类型二</span>
+                        <input type="radio" name="linetype" id="linetype_3" value="3" /><span>类型三</span>
+                    </div>
+                </div>
+               
+                <div style="clear: both;"></div>
+                <div class="line">
+                    <label><em>*</em>是否修边：</label>
+                    <div class="formRad">
+                        <input type="radio" name="isdeburr" id="deburr_yes" value="1" /><span>是</span>
+                        <input type="radio" name="isdeburr" id="deburr_no" checked="checked" value="0" /><span>否</span>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <a><input class="submit"></a>
+                    <a><input class="return"></a>
+                    
+                </div>
+                <input type="hidden" name="detailid">
+                <input id="iOrderID" type="hidden" name="orderid">
+
+            </form>
+        </div>
+    </div>      
+    
+
+
+
+    <script type="text/javascript">
+
+        var dg = new AR.DataGrid("V_IBS_BoardInfoList", "tPaperBoardInfo", "grid");//此处的视图是直接在数据库建的
+        dg.isShowCheckBox = false;
+        dg.isEditor = false;
+        dg.ToolArea.isHidden = true;//初始配置表头的时候要先设为false，配置完再改成true
+        dg.options = {
+            rownumbers: false,
+            pagination: false,
+        };
+        //alert("before onchange:idnew:" + IDNew + "--idold:" + IDOld);
+        dg.bind();
+
+        var IDOld, IDNew;
+        
+        $(function () {
+            /*获取主表中当前ROW的纸板订单ID的cook值*/
+            var iorderid = AR.Utility.Cookie.get("iOrderID");
+            //var companycode = AR.Utility.Cookie.get("CompanyCode");
+            //var phonetic = unescape(AR.Utility.Cookie.get("Phonetic"));
+            //var customordercode = AR.Utility.Cookie.get("CustomOrderCode");            
+            $("input#iOrderID").val(iorderid);
+            //$("input#iCustom").val(companycode + phonetic);
+            //$("input#iCustomOrderCode").val(customordercode);
+            //alert("iOrderID:"+iorderid);
+            /*获取从表中当前ROW对应当前纸板订单的订购纸质ID的cook值*/
+            var iorderboardinfoid = AR.Utility.Cookie.get("iOrderBoardInfoID");
+            IDOld = iorderboardinfoid;  
+            var mdg = new AR.DataGrid("V_PaperBoardOrder_List", "", "mgrid");
+            mdg.isEditor = false;
+            mdg.ToolArea.isHidden = true;
+            mdg.isShowCheckBox = false;
+
+            mdg.options = {
+                rownumbers: false,
+                pagination: false,
+            }
+            mdg.addWhere("ID", iorderid, "like");
+            mdg.bind();
+        });
+
+        /*input的值改变时，table内容改变*/
+        function onchange(record) {
+            //alert("onchange:idnew:" + IDNew + "--idold:" + IDOld);
+            IDNew = record.value;
+            dg.addWhere("ID", IDNew, "=");
+            dg.reload();
+            if (IDNew) {
+                IDOld = IDNew;
+            }
+        };
+            
+        /*复制订购纸质到生产纸质*/
+        function autoFill() {
+            //alert("autoFill");
+            var row = dg.datagrid('getData').rows[0];
+            var dc = row.dc;
+            var sc1core = row.sc1core;
+            var sc1line = row.sc1line;
+            var sc2core = row.sc2core;
+            var sc2line = row.sc2line;
+            var sc3core = row.sc3core;
+            var sc3line = row.sc3line;
+            $("input#dc").val(dc);
+            $("input#sc1core").val(sc1core);
+            $("input#sc1line").val(sc1line);
+            $("input#sc2core").val(sc2core);
+            $("input#sc2line").val(sc2line);
+            $("input#sc3core").val(sc3core);
+            $("input#sc3line").val(sc3line);
+
+        };
+
+
+    </script>
+</body>
+</html>

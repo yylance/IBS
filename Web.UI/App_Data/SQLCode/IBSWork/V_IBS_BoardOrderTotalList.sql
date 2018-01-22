@@ -1,0 +1,1 @@
+SELECT a.* ,b.CustomOrderCode,b.CustomID FROM tPaperBoardOrderDetail a left join tPaperBoardOrder b on a.OrderID=b.ID

@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>纸板资料列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body >
+    <table id="mgrid" ></table>
+    <!--<table id="sgrid" title=""></table>-->
+   
+</body>
+</html>
+<script type="text/javascript">
+     var dg = new AR.DataGrid("tPaperBoardInfo", "tPaperBoardInfo", "mgrid");
+     //dg.foreignKeys = "tPaperBoardPriceChange.PaperBoardID";//指定关联删除的外键
+     dg.isEditor = true;
+     dg.ToolArea.isHidden = false;
+     dg.ToolBar.BtnAdd.onAfterExecute = function () {
+         
+     };
+
+     dg.bind();
+     /*通过关键字获取从表价格更改记录*/
+     //var sdg;
+     dg.options = {
+         onEditing: function AutoFill(index, row) {
+             alert("onEditing");
+             //行内编辑时，修改某单元格的值，引发另一个单元格的值的变化。
+             //var jqCellDC = dg.datagrid("getEditor", { index: index, field: 'dc' }).target;
+             //jqCellDC.combobox({
+             //    onSelect: function () {
+             //        //alert("onChange");
+             //        var jqCellCode = dg.datagrid("getEditor", { index: index, field: 'code' }).target;
+             //        jqCellCode.val(jqCellDC.combobox("getText"));
+             //    }
+             //});
+             //jqCellDC.combo({
+             //    onChange: function (NewVal,OldVal) {
+             //        //alert("onChange");
+             //        var jqCellCode = dg.datagrid("getEditor", { index: index, field: 'code' }).target;
+             //        jqCellCode.val(NewVal);
+             //    }
+             //});
+
+             //alert("onEditing-" + index + ":" + JSON.stringify(row));
+             var editors = dg.datagrid("getEditors", index, row);
+
+             var code = editors[0];
+             var editors_hst = new Array();
+
+             for (var i = 1; i < 8; i++) {
+                 editors_hst[i] = editors[i].target.combobox("getValue");
+
+             };
+
+             editors[1].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[1].target.combobox('setValue', editors_hst[1]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[2].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[2].target.combobox('setValue', editors_hst[2]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[3].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[3].target.combobox('setValue', editors_hst[3]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[4].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[4].target.combobox('setValue', editors_hst[4]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[5].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[5].target.combobox('setValue', editors_hst[5]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[6].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[6].target.combobox('setValue', editors_hst[6]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+             editors[7].target.combobox({
+                 width: 100,
+                 onLoadSuccess: function () {
+                     editors[7].target.combobox('setValue', editors_hst[7]);
+                 },
+                 onSelect: function () { calculate(); },
+             });
+
+
+             
+
+
+
+
+
+         },
+
+     };
+     function calculate() {
+         alert("calculate");
+         code.target.val(editors[1].target.combobox("getText") + editors[2].target.combobox("getText") + editors[3].target.combobox("getText") + editors[4].target.combobox("getText") + editors[5].target.combobox("getText") + editors[6].target.combobox("getText") + editors[7].target.combobox("getText"));
+     }
+
+</script>

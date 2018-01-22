@@ -1,0 +1,1023 @@
+
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 08:51:40 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 09:59:55 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:20:36 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 10:34:13 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:35 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sqlhttp://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7545400065820302
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:38 http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7545400065820302
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7981969659531059
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:24:38 http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7981969659531059
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:03 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sqlhttp://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9056874394258665
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:05 http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9056874394258665
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5535665996441002
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:05 http://localhost:27532/Web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5535665996441002
+Referer:http://localhost:27532/Web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9337704814223171
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:30 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9337704814223171
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.36910174111957383
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:30 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.36910174111957383
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5037900707376508
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:43 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5037900707376508
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.06454772012722465
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:29:43 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.06454772012722465
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.35102861855748646
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:30:29 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.35102861855748646
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7167782550523605
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:30:29 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.7167782550523605
+Referer:http://localhost:27532/web/PaperManage/PaperStockInList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='I'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.15677268646556208
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:30:39 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.15677268646556208
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.10081466478500811
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:31:06 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.10081466478500811
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8192624745055055
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:40:35 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.8192624745055055
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9769790255291202
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:41:41 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.9769790255291202
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.25481120016750247
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:46:24 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.25481120016750247
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5650372718719094
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 15:56:29 http://localhost:27532/web/PaperManage/ajax.html?sys_method=GetCombobox&sys_rnd=0.5650372718719094
+Referer:http://localhost:27532/web/PaperManage/PaperStockOutList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名 'tStockInOutType' 无效。<br />MsSql.IBSSYS.SQL: <br />SELECT Code AS value,Code+'('+Name+')' AS text FROM tStockInOutType WHERE tStockInOutType.Type ='O'<br />ExeDataReader():对象名 'tStockInOutType' 无效。<br />
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:13:20 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:30:08 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:44:33 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 16:48:17 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Combobox.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_DCS.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Ibs.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\Sql_Yours.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\V_Test.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\DCS\V_DCS_OrdLst.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\Sql_IBSWork.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardInfoList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperInStock.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperNewStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperReStockInDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockIn.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOut.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperStockOutDetail.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\IBSWork\V_Supplier.sql
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-19 17:21:07 
+---------------------------------------
+
+F:\Jspack\IBS_New\Aries.DevFramework\Web.UI\\App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql

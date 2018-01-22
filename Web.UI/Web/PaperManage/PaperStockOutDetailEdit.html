@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+    <script src="/Style/JS/FormInput.js"></script>
+</head>
+
+<body>
+    <!--对应主表信息-->
+    <div class=cont-box-in>
+        <div class=cont-box-form>
+            <div class=line style="height:87px">
+                <div id="mgrid" title="出库基本信息"></div>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class=cont-box-in>
+            <div class=cont-box-form>
+                <div class="line">
+                    <div class="short">
+                        <label><em>*</em>卷标：</label>
+                        <input id="paperlabel" type="text" pattern="like" name="paperlabel" class="easyui-validatebox" required="required" validtype="length[1,50]" style="width:200px;">
+                    </div>
+                    <div class="short">
+                        <label>RFIDCode：</label>
+                        <input id="rfidcode" name=rfidcode class=easyui-validatebox type=text pattern="like" validtype="length[1,50]" style="width:200px;">
+                    </div>
+
+                    <div class="long">
+                        <label><em>*</em>出库重量(T)：</label>
+                        <input id="outweight" type="text" pattern="like" precision="3" name="outweight" required="required" class="easyui-numberbox easyui-validatebox" validtype="length[1,22]">
+                    </div>
+                </div>
+
+                <!--对应tPaperNewStockin中的纸卷信息-->
+                <div class="line" style="height:87px; padding-bottom:20px;">
+                    <div id="sgrid" title="纸卷详细信息"></div>
+                </div>
+                <div class=line>
+                    <label>用户备注：</label>
+                    <textarea rows="2" cols="50" maxlength="50" placeholder="最多可输入50字..." wrap="hard" name="memo"></textarea>
+                </div>
+                <div class=btn>
+                    <A><INPUT class=submit></A>
+                    <A><INPUT class=return></A>
+                    <INPUT name="id" type=hidden>
+                    <INPUT id="iStockOutID" name=stockoutid type=hidden>
+                    <!--<INPUT id="inoutstate" name=inoutstate type=hidden>-->
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+
+                $(function () {
+                        /*获取cook值*/
+                        var istockoutid = AR.Utility.Cookie.get("iStockOutID");
+                        var paperlabel = $("#paperlabel").val();
+                        var rfidcode = $("#rfidcode").val();
+                        var inoutstate = undefined;
+                        var isNew = true;
+                        if (paperlabel) {
+                            $("#paperlabel").attr("readonly", "readonly");
+                            $("#rfidcode").attr("readonly", "readonly");
+                            isNew = false;
+                        };
+                        $("input#iStockOutID").val(istockoutid);
+                        /*获取当前ROW对应从表中当前纸卷的卷标的cook值*/
+                        var mdg = new AR.DataGrid("V_IBS_PaperStockOut", "", "mgrid");
+                        mdg.isEditor = false;
+                        mdg.ToolArea.isHidden = true;
+                        mdg.isShowCheckBox = false;
+
+                        mdg.options = {
+                            rownumbers: false,
+                            pagination: false,
+                        }
+                        mdg.addWhere("ID", istockoutid, "=");
+                        mdg.bind();
+
+                        var sdg = new AR.DataGrid("V_IBS_PaperInStock", "", "sgrid");
+                        sdg.isShowCheckBox = false;
+                        sdg.isEditor = false;
+                        sdg.ToolArea.isHidden = true;
+                        sdg.ToolBar.BtnAdd.isHidden = true;
+                        sdg.ToolBar.BtnDelBatch.isHidden = true;
+                        sdg.ToolBar.BtnImport.isHidden = true;
+                        sdg.ToolBar.BtnExportTemplate.isHidden = true;
+                        //sdg.ToolBar.add('出库', 'stockOut', 10, 'btn-lg', "edit");
+                        sdg.options = {
+                            rownumbers: false,
+                            pagination: false,
+                            onLoadSuccess: function () {
+                                var data = sdg.datagrid('getData');
+                                var row = data.rows[0]
+                                rfidcode = row.rfidcode;
+                                paperlabel = row.newpaperlabel;
+                                inoutstate = row.inoutstate;
+                                $("input#rfidcode").val(rfidcode);
+                                $("input#paperlabel").val(paperlabel);
+
+                            },
+                        };
+
+                        sdg.addWhere("NewPaperLabel", paperlabel, "=");
+                        sdg.bind();
+
+                        /*原纸卷标改变时带出对应的入库信息 */
+                        $("#paperlabel").change(function () {
+                            //alert("paperlabel.change");
+                            paperlabel = $("#paperlabel").val();
+                            $("#rfidcode").val(null);
+                            inoutstate = undefined;
+                            sdg.removeWhere("RFIDCode");
+                            sdg.addWhere("NewPaperLabel", paperlabel, "=");
+                            sdg.reload();
+                        });
+                        /*RFIDCode改变时带出对应的入库信息*/
+                        $("#rfidcode").change(function () {
+                            //alert("rfidcode.change");
+                            rfidcode = $("#rfidcode").val();
+                            $("#paperlabel").val(null);
+                            inoutstate = undefined;
+                            sdg.removeWhere("NewPaperLabel");
+                            sdg.addWhere("RFIDCode", rfidcode, "=");
+                            sdg.reload();
+                        });
+
+                        /*提交前验证要出库的纸卷是否在库，不在库时不允许出库*/
+                        if (isNew == true) {
+                            AR.Form.BtnCommit.onBeforeExecute = function (arrayData) {
+                                if (inoutstate == undefined) {
+                                    alert("卷标不存在！");//varchar类型的数据为空时系统不会提示错误，所以需要增加此条校验
+                                    return false;
+                                };
+                                if (inoutstate == false) {
+                                    alert("该纸卷不在库，不能出库！");
+                                    return false;
+                                };
+                            };
+                        };
+
+                    });
+
+
+                function stockOut() {
+                    alert('stockOut');
+                    return false;//return false 才能阻碍后续的窗口打开事件。
+                    AR.Utility.Window.showMsg('TEST');
+                }
+
+    </script>
+
+</body>
+</html>

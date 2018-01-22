@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>待排程订单列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div id="grid1" ></div>
+
+        <script type="text/javascript">
+            var dg1 = new AR.DataGrid("tPlanOrderItems", "tPlanOrderItems", "grid1");
+            dg1.isEditor = false;
+            dg1.ToolArea.isHidden = false;
+            dg1.ToolBar.BtnAdd.isHidden = true;
+            dg1.ToolBar.BtnDelBatch.isHidden = true;
+            dg1.ToolBar.BtnImport.isHidden = true;
+            dg1.ToolBar.BtnExportTemplate.isHidden = true;
+            dg1.options.fitColumns = false;
+            dg1.ToolBar.add('排程', 'Schedule', 0, 'btn-lg', "edit");
+            //dg1.addWhere("IsScheduled", 0, "=")
+            dg1.bind();
+            
+
+            function Schedule() {
+                alert('Schedule');
+
+                //return false;//return false 才能阻碍后续的窗口打开事件。
+                //AR.Utility.Window.showMsg('TEST');
+            } 
+        </script>
+</body>
+</html>

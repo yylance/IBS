@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+   
+</head>
+<body>
+
+    <FORM>
+        <DIV class=cont-box>
+            <DIV class=cont-box-tit>
+                <H3>原纸期初库存明细表</H3>
+            </DIV>
+        </DIV>
+        <DIV class=cont-box-in>
+            <DIV class=cont-box-form>
+                <DIV class=line>
+                    <!--<DIV class=short>
+                    <LABEL>StockInID：</LABEL>
+                    <INPUT name=stockinid class=easyui-validatebox type=text pattern="like" validtype="length[1,36]">
+                        </DIV>-->
+                    <div class="short">
+                        <label>入库日期：</label>
+                        <input id="Date" type="text" pattern="like" name="date" class="easyui-datebox easyui-validatebox" date="true" validtype="datebox" style="width: 150px;" >
+                    </div>
+                    <div  class="short">
+                        <label>原纸编码：</label>
+                        <input id="papercode" name="papercode" objname="C_Paper_Code2Description" pattern="=" type="text">
+                    </div>
+                    <DIV class=short>
+                        <LABEL>幅宽：</LABEL>
+                        <INPUT id="paperwidth" name="paperwidth" class="easyui-numberbox easyui-validatebox" type=text pattern="like" validtype="length[1,5]">
+                    </DIV>
+                </DIV>
+                <div class="line">
+                    <div class="short">
+                        <label>外径(mm)：</label>
+                        <input type="text" pattern="like" name="outerdiameter" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label>内径(mm)：</label>
+                        <input type="text" pattern="like" name="innerdiameter" class="easyui-numberbox easyui-validatebox" validtype="length[1,5]">
+                    </div>
+                    <div class="short">
+                        <label>重量(T)：</label>
+                        <input type="text" pattern="like" precision="3" name="weight" class="easyui-numberbox easyui-validatebox" validtype="length[1,13]">
+                    </div>
+                </div>
+                <DIV class=line>
+                    <!--<DIV class=short>
+                        <LABEL>供应商：</LABEL>
+                        <input name="supplierid" objname="C_Supplier_Name" pattern="=" type="text">
+                    </DIV>-->
+                    <DIV class=short>
+                        <LABEL>仓库：</LABEL>
+                        <INPUT name=stockhousecode objname="C_StockHouse_Code" pattern="=" type="text">
+                    </DIV>
+                    <div class="short">
+                        <label>卷标：</label>
+                        <input id="paperlabel" type="text" pattern="like" name="paperlabel" class="easyui-validatebox" validtype="length[1,50]">
+                    </div>
+                </DIV>
+                <DIV class=line>
+                    <DIV class=short>
+                        <LABEL>用户备注：</LABEL>
+                        <INPUT id="Memo" name=memo class=easyui-validatebox type=text pattern="like" validtype="length[0,100]">
+                    </DIV>
+                    <DIV class=short>
+                        <LABEL>RFIDCode：</LABEL>
+                        <INPUT name=rfidcode class=easyui-validatebox type=text pattern="like" validtype="length[1,50]">
+                    </DIV>
+                </DIV>
+                <DIV class=btn>
+                    <A><INPUT class=submit></A>
+                    <A><INPUT class=return></A>
+                    <INPUT name="id" type=hidden>
+                </DIV>
+                <INPUT id="iSupplierID" name=supplierid type=hidden>
+            </DIV>
+        </DIV>
+    </FORM>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+    $(function () {
+        /*获取cook值*/
+        var isupplierid = AR.Utility.Cookie.get("iSupplierID");
+        $("input#iSupplierID").val(isupplierid);
+     //入库日期自动填写
+        function myformatter(date) {
+            var y = date.getFullYear();
+            var m = date.getMonth() + 1;
+            var d = date.getDate();
+            return y + '-' + (m < 10 ? ('0' + m) : m) + '-' + (d < 10 ? ('0' + d) : d);
+        } 
+        var _date = $("input#Date");
+        if (!_date.datebox("getValue")) {
+            var crrtime = new Date();
+            _date.datebox("setValue", myformatter(crrtime));
+        }
+
+    });
+    
+</script>

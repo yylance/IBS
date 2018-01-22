@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安全存量列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <table id="grid"></table>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    var curpaperid = AR.Utility.queryString("curpaperid");
+    /*cookie中获取当前原纸ID号并设置cook值*/
+    AR.Utility.Cookie.set("PaperID", curpaperid);
+
+    var dg = new AR.DataGrid("tPaperSafeStock", "tPaperSafeStock", "grid");
+
+    dg.PKColumn.add("edit", "编辑", null, "PaperSafeStockSet.html", "安全存量设定", "edit");
+    dg.PKColumn.add("del", "删除", null, null, null, "del");
+    dg.addWhere("PaperID", curpaperid, "like");
+    dg.bind();
+</script>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>仓库设置</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style=" height:100%; width:100%; position:absolute;  top:0 ; left:0;">
+        <div class="div_inline" style=" height:95%;width:350px;">
+            <div id="grid2" title="仓库类型"></div>
+        </div>        
+        <div class="div_inline" style="height:95%;width:600px;">
+            <div id="grid1" title="仓库编号"></div>
+        </div>
+        
+</body>
+</html>
+<script type="text/javascript">
+     var dg1 = new AR.DataGrid("tStockHouse", "tStockHouse", "grid1");
+     dg1.isEditor = true;
+     dg1.ToolArea.isHidden = false;
+     dg1.options = { sortName: "StockHouseCode asc"}
+     dg1.bind();
+     //dg.PKColumn.add("edit", "编辑", null, "PaperStockInEdit.html", "入库信息", "edit");
+     //dg.PKColumn.add("del", "删除", null, null, null, "del");
+     /*通过关键字获取从表入库明细*/
+     var dg2 = new AR.DataGrid("tStockHouseType", "tStockHouseType", "grid2");
+     dg2.isEditor = true;
+     dg2.ToolArea.isHidden = false;
+     dg2.bind();
+     
+</script>
+
+
+

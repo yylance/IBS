@@ -1,0 +1,1 @@
+SELECT a.* ,b.CompanyCode,CompanyName,Phonetic FROM tPaperBoardOrder a left join tCustom b on a.CustomID=b.ID

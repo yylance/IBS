@@ -1,0 +1,1 @@
+SELECT i.ID,StockInOutCode,StockInOutType,RecordTime,RecordPeople,FromDepartment,FromPeople,Memo,t.Type FROM tPaperStockInOut i left join tStockInOutType t on i.StockInOutType= t.Code WHERE t.Type='I'

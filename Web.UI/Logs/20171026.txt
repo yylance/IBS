@@ -1,0 +1,56 @@
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.5245402187943047
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 11:45:13 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.5245402187943047
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾44¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.8473115647127517
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 13:39:02 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.8473115647127517
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾11¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.5258130419935497
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 13:39:26 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.5258130419935497
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾33¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.46072770877063113
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 13:49:48 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.46072770877063113
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾444¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.35511622212895705
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 13:49:57 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.35511622212895705
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾444¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.0871007443770287
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 13:50:00 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.0871007443770287
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾444¡¿
+http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.22017849267923106
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/10/26 14:00:01 http://localhost:27532/web/PaperManage/ajax.html?sys_method=Add&sys_objName=tPaperStockInDetail&sys_tableName=tPaperStockInDetail&sys_rnd=0.22017849267923106
+Referer:http://localhost:27532/web/PaperManage/PaperStockInDetailEdit.html
+---------------------------------------
+
+[LogConnIsEmpty]:ChangeType Error£ºColumnName¡¾RFIDCode¡¿(System.Guid) £¬ Value£º¡¾11¡¿

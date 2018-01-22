@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸入库汇总报表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div id="grid1"></div>
+
+    <script type="text/javascript">
+
+        var dg1 = new AR.DataGrid("V_Paper_Input_Total", "", "grid1");
+        dg1.isEditor = false;
+        dg1.isShowCheckBox = true;
+        dg1.ToolArea.isHidden = false;
+        dg1.ToolBar.BtnAdd.isHidden = true;
+        dg1.ToolBar.BtnDelBatch.isHidden = true;
+        dg1.ToolBar.BtnImport.isHidden = true;
+        dg1.ToolBar.add('刷新报表', 'refresh', 0, 'btn-lg', "edit");
+        dg1.options = {
+            //fitColumns: false,
+            pageSize: 20,
+        };
+        dg1.bind();
+        function refresh() {
+            dg1.reload();
+        };
+
+    </script>
+</body>
+</html>

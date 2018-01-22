@@ -1,0 +1,15 @@
+http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=GetCombobox&sys_rnd=0.7500193925550357
+Referer:http://localhost:27532/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\19 星期四 8:49:24 http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=GetCombobox&sys_rnd=0.7500193925550357
+Referer:http://localhost:27532/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'Sys_Role' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT RoleID AS value, RoleName AS text FROM Sys_Role where RoleID<>'00000000-0000-0000-0000-000000000000'<br />ExeDataReader():对象名  'Sys_Role' 无效。<br />http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=GetCombobox&sys_rnd=0.738955403109075
+Referer:http://localhost:27532/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017\10\19 星期四 15:35:35 http://localhost:27532/Web/SysAdmin/ajax.html?sys_method=GetCombobox&sys_rnd=0.738955403109075
+Referer:http://localhost:27532/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[LogConnIsEmpty]:MsSql Call Function::ExeDataReader():对象名  'Sys_Role' 无效。<br />MsSql.IBSWork.SQL: <br />SELECT RoleID AS value, RoleName AS text FROM Sys_Role where RoleID<>'00000000-0000-0000-0000-000000000000'<br />ExeDataReader():对象名  'Sys_Role' 无效。<br />
