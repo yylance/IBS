@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>部门资料</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    
+        <div id="grid"></div>
+    
+
+</body>
+</html>
+<script type="text/javascript">
+    var dg = new AR.DataGrid("tDepartment", "tDepartment", "grid");
+     dg.isEditor = true;
+     dg.ToolArea.isHidden = false;
+     dg.options = {
+         //初始排序
+         sortName: "Code asc",
+     }
+     dg.bind();
+</script>

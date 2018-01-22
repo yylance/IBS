@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸出库单</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div style="height:100%;width:100%;position:absolute;">
+
+        <div id="mgrid_div" style="height:50%;"><div id="mgrid"></div></div>
+        <div id="sgrid_div" style="height:50%;"><div id="sgrid" title=" "></div></div>
+
+    </div>  
+    
+</body>
+
+</html>
+<script type="text/javascript">
+    var dg = new AR.DataGrid("V_IBS_PaperStockOut", "tPaperStockInOut", "mgrid");
+    dg.foreignKeys = "tPaperStockOutDetail.StockOutID";//指定关联删除的外键
+    dg.isEditor = true;
+    dg.ToolArea.isHidden = false;
+    var crrUser = unescape(AR.Utility.Cookie.get("cookie_fullname"));//默认用户名为当前用户名，unescape（）用于解决用户名乱码 
+        //var crrUser = AR.Global.GetUser().fullname;//用此方法也能获取当前用户名，可以和上面Cookie.get的方法比较，哪个效率高用哪个
+        dg.ToolBar.BtnAdd.onBeforeExecute = function () {
+        var crrTime = new Date();
+        var defautStockInOutCode = crrTime.format("yyyyMMddhhmmss") ;//默认单号，由当前日期时分秒生成
+        var defautTime = crrTime.format("yyyy-MM-dd");//默认制单时间为当前时间，对时间格式化处理,yyyy-MM-dd hh:mm:ss
+        dg.defaultInsertData = { stockinoutcode: defautStockInOutCode, recordtime: defautTime, recordpeople: crrUser }; //行内编辑 - 新增指定默认值，写在BtnAdd.onBeforeExecute里面是为了获取实时的当前时间
+    }
+
+
+
+    /*通过关键字获取从表入库明细*/
+    var sdg;
+    dg.options = {
+        //初始排序
+        sortName: "StockInOutCode desc",
+        //点击行时获取对应从表信息
+        onClickRow: function (index, row) {
+            
+            var id = row.id;
+            //alert("onClickRow: " + id )
+            AR.Utility.Cookie.set("iStockOutID", id);
+
+            var stockInOutCode = row.stockinoutcode;
+            var tileString = "【" + stockInOutCode + "】的出库明细表:";
+            if (!sdg) {
+                sdg = new AR.DataGrid("V_IBS_PaperStockOutDetail", "tPaperStockOutDetail", "sgrid");
+               // sdg.isEditor = true;
+                sdg.ToolArea.isHidden = false;
+                sdg.PKColumn.add("edit", "编辑", null, "PaperStockOutDetailEdit.html", tileString, "edit");
+                sdg.PKColumn.add("del", "删除", null, null, null, "del");
+                sdg.ToolBar.add('读RFID码', 'ReadRFID', 10, 'btn-lg', "edit");
+                
+                //sdg.defaultInsertData = { stockinoutid: id, paperlabel: defautStockoutCode }
+
+                //sdg.options.fitColumns = false;
+                sdg.addWhere("StockOutID", id, "like");
+                sdg.bind();
+            }
+            else {
+                //sdg.defaultInsertData = { stockoutid: id, paperlabel: defautStockoutCode }
+                sdg.addWhere("StockOutID", id, "like");
+                sdg.reload();
+            }
+            $("#sgrid").datagrid({ title: tileString });//从表标题增加主表信息显示
+        }
+    }
+    //dg.addWhere("Type", 'O', "=")
+    dg.bind();
+    function ReadRFID() {
+        alert('ReadRFID');
+        return false;//return false 才能阻碍后续的窗口打开事件。
+        AR.Utility.Window.showMsg('TEST');
+    }
+
+
+</script>
+
+
+

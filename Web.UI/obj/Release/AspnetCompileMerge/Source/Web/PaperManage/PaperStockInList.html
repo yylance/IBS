@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸入库单</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+
+    <div style="height:100%;width:100%;position:absolute;">
+
+        <div id="mgrid_div" style="height:50%;"><div id="mgrid"></div></div>
+        <div id="sgrid_div" style="height:50%;"><div id="sgrid" title=" "></div></div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        var dg = new AR.DataGrid("V_IBS_PaperStockIn", "tPaperStockInOut", "mgrid");
+        dg.foreignKeys = "tPaperNewStockInDetail.NewStockInID";//指定关联删除的外键
+        dg.isEditor = true;
+        dg.ToolArea.isHidden = false;
+        
+
+        //dg.PKColumn.add("edit", "编辑", null, "PaperStockInEdit.html", "入库信息", "edit");
+        //dg.PKColumn.add("del", "删除", null, null, null, "del");
+        var crrUser = unescape(AR.Utility.Cookie.get("cookie_fullname"));//默认用户名为当前用户名，unescape（）用于解决用户名乱码
+        dg.ToolBar.BtnAdd.onBeforeExecute = function () {
+            //alert("BtnAdd.onBeforeExecute");
+            var crrtime = new Date();
+            var defautStockInOutCode = crrtime.format("yyyyMMddhhmmss");//入库单号自动填写
+            var defautTime = crrtime.format("yyyy-MM-dd");//对日期格式化处理,YY-MM-DD
+            dg.defaultInsertData = { stockinoutcode: defautStockInOutCode, recordtime: defautTime, recordpeople: crrUser }; //行内编辑 - 新增指定默认值，写在BtnAdd.onBeforeExecute里面是为了获取实时的当前时间
+        }
+
+
+        /*通过关键字获取从表入库明细*/
+        var sdg;
+        dg.options = {
+            //初始排序
+            sortName: "StockInOutCode desc",
+            //点击行时获取对应从表信息
+            onClickRow: function (index, row) {
+
+                var id = row.id;
+                var stockinoutcode = row.stockinoutcode;
+                var tileString = "【" + stockinoutcode + "】的入库明细表:";
+                AR.Utility.Cookie.set("NewStockInID", id);
+
+                if (!sdg) {
+
+                    sdg = new AR.DataGrid("V_IBS_PaperNewStockInDetail", "tPaperNewStockInDetail", "sgrid");
+                    //sdg.isEditor = true;
+                    sdg.ToolArea.isHidden = false;
+                    sdg.PKColumn.add("edit", "编辑", null, "PaperStockInDetailEdit.html", tileString, "edit");
+                    sdg.PKColumn.add("del", "删除", null, null, null, "del");
+                    //sdg.ToolBar.add('写RFID码', 'WriteRFID', 10, 'btn-lg', "edit");
+                    //sdg.defaultInsertData = { stockinoutid: id, }//行内编辑时打开
+                    //sdg.options.fitColumns = false;
+                    sdg.options = {
+                        sortName: "NewPaperLabel asc",
+                    }
+                    sdg.addWhere("NewStockInID", id, "like");
+                    sdg.bind();
+                }
+                else {
+                    //sdg.defaultInsertData = { stockinoutid: id,  }
+                    sdg.addWhere("NewStockInID", id, "like");
+                    sdg.reload();
+                }
+                $("#sgrid").datagrid({ title: tileString });//从表标题增加主表信息显示
+            }
+        }
+        //dg.addWhere("Type",'I',"=")
+        dg.bind();
+        function WriteRFID() {
+            alert('WriteRFID');
+            return false;//return false 才能阻碍后续的窗口打开事件。
+            AR.Utility.Window.showMsg('TEST');
+        }
+        function ReadRFID() {
+            alert('ReadRFID');
+            return false;//return false 才能阻碍后续的窗口打开事件。
+            AR.Utility.Window.showMsg('TEST');
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

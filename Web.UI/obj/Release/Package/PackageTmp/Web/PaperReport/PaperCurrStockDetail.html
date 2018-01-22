@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸现存量明细报表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div id="grid1"></div>
+
+    <script type="text/javascript">
+            report();
+        var dg1 = new AR.DataGrid("tPaperCurrStockDetail", "", "grid1");
+            dg1.isEditor = false;
+            dg1.isShowCheckBox = true;
+            dg1.ToolArea.isHidden = false;
+            dg1.ToolBar.BtnAdd.isHidden = true;
+            dg1.ToolBar.BtnDelBatch.isHidden = true;
+            dg1.ToolBar.BtnImport.isHidden = true;
+            dg1.ToolBar.BtnExportTemplate.isHidden = true;
+            dg1.ToolBar.add('刷新', 'refresh', 0, 'btn-lg', "edit");
+            dg1.options = {
+                //fitColumns: false,
+                pageSize: 20,
+            };
+
+            dg1.bind();
+            function refresh() {
+                report();
+                dg1.reload();
+            };
+            function report() {
+                var result = AR.Utility.Ajax.post("RunProcNonQuery", "GetPaperCurrStockDetial", null);
+                if (result) {
+                    if (result.success) {
+                        //AR.Utility.Window.showMsg("存储过程执行成功！", "恭喜");
+                    }
+                    else {
+                        if (result.msg) {
+                            alert(result.msg);
+                        }
+                        else {
+                            var msg = JSON.stringify(result);
+                            if (msg == "{}") { msg = "存储过程执行失败!"; }
+                            alert(msg);
+                        }
+                    };
+                }
+            };
+
+
+    </script>
+</body>
+</html>

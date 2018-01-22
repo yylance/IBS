@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸资料列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style=" height:100%; width:100%; position:absolute;  top:0 ; left:0;">
+        <div div style="height:95%;width:60%; float:left;padding:10px 0px 10px 10px">
+            <div id="mgrid" title="原纸编码表"></div>
+        </div>
+
+        <div style="height: 95%;padding:10px 10px 10px 0px;overflow:auto;">
+            <div id="sgrid" title=""></div>
+        </div>
+    </div>
+        <script type="text/javascript">
+            var dg = new AR.DataGrid("tPaperInfo", "tPaperInfo", "mgrid");
+            dg.foreignKeys = "tPaperSafeStock.PaperID";//指定关联删除的外键
+            dg.isEditor = true;
+            //dg.PKColumn.add("edit", "编辑", null, "PaperInfoEdit.html", "原纸资料编辑", "edit");
+            //dg.PKColumn.add("del", "删除", null, null, null, "del");
+            //dg.PKColumn.add("detail", "安全存量设定", 'SafeStockSet', null, "安全存量设定", "edit");
+            /*通过关键字获取从表原纸安全库存记录*/
+            var sdg;
+            dg.options = {
+                onClickRow: function (index, row) {
+                    var id = row.id;
+                    //AR.Utility.Cookie.set("PaperID", id);//sdg行内编辑开启时无用，行内编辑关闭时需打开
+                    var paperCode = row.papercode
+                    //var paperType = row.papertype
+                    var paperUnitWeight = row.paperunitweight;
+                    var tileString = paperCode +"("+ paperUnitWeight + ")g  的安全存量";
+
+                    if (!sdg) {
+                        sdg = new AR.DataGrid('tPaperSafeStock', 'tPaperSafeStock', "sgrid");
+                        sdg.ToolArea.isHidden = false;
+                        sdg.isEditor = true;
+                        //sdg.PKColumn.add("edit", "编辑", null, "PaperSafeStockSet.html", "原纸安全库存量设定", "edit");
+                        //sdg.PKColumn.add("del", "删除", null, null, null, "del");
+                        sdg.defaultInsertData = { paperid: id }; //行内编辑 - 从表新增PaperID指定默认值为主表ID - !重要
+                        sdg.addWhere("PaperID", id, "like");
+                        
+                        sdg.bind();
+
+                    }
+                    else {
+                        sdg.defaultInsertData = { paperid: id };
+                        sdg.addWhere("PaperID", id, "like");
+                        
+                        sdg.reload();
+
+                    }
+                    
+                    $("#sgrid").datagrid({ title: tileString });//从表标题增加主表信息显示                 
+                },
+            }
+            dg.bind();
+
+
+                        
+
+        /*
+        function SafeStockSet(a, b, i) {
+            var rname = b.paperdescription;
+            AR.Utility.Window.open('PaperSafeStock.html?curpaperid=' + a, '原纸：【' + rname + '】安全存量设定');
+        }
+        */
+        </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>客户列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <table id="grid"></table>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    var dg = new AR.DataGrid("tCustom", "tCustom", "grid");
+    dg.isEditor = true;
+    dg.options = {
+        sortName: "CompanyCode asc",
+        onAfterExecute:function(){
+            dg.Search.Items["CompanyName"].val("客户名称");
+        }
+    };
+    //dg.PKColumn.add("edit", "编辑", null, "CustomEdit.html", "客户编辑", "edit");
+    //dg.PKColumn.add("del", "删除", null, null, null, "del");
+    dg.bind();
+</script>

@@ -1,0 +1,61 @@
+﻿
+<html>
+<head>
+    <title>打印测试</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script language="javascript" src="/Style/JS/jquery-1.7.1.min.js"></script>
+    <script language="javascript" src="/Style/JS/jquery.jqprint-0.3.js"></script>
+</head>
+<body style='padding:10px;'>
+    <div id="print-area">
+        <table>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+        </table>
+    </div>
+    <input type="button" onclick="print()" value="打印">
+    <script language="javascript">
+        function print() {
+            $("#print-area").jqprint({
+                debug: false,
+                importCSS: true,
+                printContainer: true,
+                operaSupport: false
+            });
+        }
+    </script>
+</body>
+</html>

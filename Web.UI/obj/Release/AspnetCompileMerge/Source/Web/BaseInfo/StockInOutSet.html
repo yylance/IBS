@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>仓库设置</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    
+        <div id="grid3"></div>
+    
+
+</body>
+</html>
+<script type="text/javascript">
+     var dg3 = new AR.DataGrid("tStockInOutType", "tStockInOutType", "grid3");
+     dg3.isEditor = true;
+     dg3.ToolArea.isHidden = false;
+     dg3.options = {
+         //初始排序
+         sortName: "Code asc",
+     }
+     dg3.bind();
+</script>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div id="grid"></div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        var result = AR.Utility.Ajax.post("RunProcNonQuery", "DCS.ProcRuntest", null);
+        if (result) {
+            if (result.success) {
+                AR.Utility.Window.showMsg("存储过程执行成功！", "恭喜");
+            }
+            else {
+                if (result.msg) {
+                    alert(result.msg);
+                }
+                else {
+                    var msg = JSON.stringify(result);
+                    if (msg == "{}") { msg = "存储过程执行失败!"; }
+                    alert(msg);
+                }
+            }
+        }
+        
+    });
+    var dg = new AR.DataGrid('proctest1', 'proctest1', "grid");
+    dg.bind();
+</script>
+
+
+

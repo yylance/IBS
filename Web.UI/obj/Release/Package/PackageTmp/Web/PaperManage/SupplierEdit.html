@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <form>
+        <div class="cont-box">
+            <div class="cont-box-tit">
+                <h3>供应商编辑<a class="arrows hover"></a></h3>
+            </div>
+        </div>
+        <div class="cont-box-in">
+            <div class="cont-box-form">
+                <div class="line">
+                    <div class="short">
+                        <label>公司名称：</label>
+                        <input type="text" pattern="like" name="companyname" class="easyui-validatebox" validtype="length[1,200]">
+                    </div>
+                    <div class="short">
+                        <label>公司简拼：</label>
+                        <input type="text" pattern="like" name="phonetic" class="easyui-validatebox" validtype="length[1,50]">
+                    </div>
+                    <div class="short">
+                        <label>联系人：</label>
+                        <input type="text" pattern="like" name="linkman" class="easyui-validatebox" validtype="length[1,50]">
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="short">
+                        <label>工作电话：</label>
+                        <input type="text" pattern="like" name="phone" class="easyui-validatebox" validtype="length[1,50]">
+                    </div>
+                    <div class="short">
+                        <label>公司地址：</label>
+                        <input type="text" pattern="like" name="address" class="easyui-validatebox" validtype="length[1,250]">
+                    </div><div class="short">
+                        <label>供应商等级：</label>
+                        <input type="text" pattern="like" name="lvl" class="easyui-numberbox easyui-validatebox" validtype="length[1,10]">
+                    </div>
+                </div>
+                <div class="btn">
+                    <a>
+                        <input class="submit" type="submit" name="保存" value="" />
+                    </a>
+                    <a>
+                        <input class="return" type="submit" name="取消" value="" />
+                    </a>
+                    <input type="hidden" name="id">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸期初库存</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style=" height:100%; width:100%; position:absolute;  top:0 ; left:0;">
+        <div style="height:95%; width:15%; float:left;padding:10px 0px 10px 10px">
+            <div id="mgrid" title="供应商"></div>
+        </div>
+        <div id="div-sdg" style="height:95%; ;padding:10px 10px 10px 0px;overflow:auto;">
+            <div id="sgrid" title=""></div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        var dg = new AR.DataGrid("V_Supplier", "tSupplier", "mgrid");
+        dg.isShowCheckBox = false;
+        dg.isEditor = false;
+        dg.ToolArea.isHidden = true;
+
+        /*通过关键字获取从表入库明细*/
+        var sdg;
+        dg.options = {
+            pagination: false,
+            //初始排序
+            sortName: "CompanyCode asc",
+            //点击行时获取对应从表信息
+            onClickRow: function (index, row) {
+
+                var id = row.id;
+                //AR.Utility.Cookie.set("iSupplierID", id);
+                var companyCode = row.companycode;
+                var phonetic = row.phonetic;
+                var tileString = "【" + companyCode + phonetic + "】的原纸期初库存明细表:";
+                if (!sdg) {
+                    sdg = new AR.DataGrid("tPaperOpeningStockDetail", "tPaperOpeningStockDetail", "sgrid");
+                    //sdg.isEditor = true;
+                    sdg.ToolArea.isHidden = false;
+                    sdg.isEditor = true;
+                    var crrUser = unescape(AR.Utility.Cookie.get("cookie_fullname"));//默认用户名为当前用户名，unescape（）用于解决用户名乱码 
+                    //var crrUser = AR.Global.GetUser().fullname;//用此方法也能获取当前用户名，可以和上面Cookie.get的方法比较，哪个效率高用哪个
+                    sdg.ToolBar.BtnAdd.onBeforeExecute = function () {
+                        var crrTime = new Date();
+                        var defautTime = crrTime.format("yyyy-MM-dd");//默认制单时间为当前时间，对时间格式化处理,yyyy-MM-dd hh:mm:ss
+                        sdg.defaultInsertData = {recordtime: defautTime, recordpeople: crrUser, supplierid: id}; //行内编辑 - 新增指定默认值，写在BtnAdd.onBeforeExecute里面是为了获取实时的当前时间
+                    }
+                    sdg.options.fitColumns = false;
+                    //sdg.PKColumn.add("edit", "编辑", null, "PaperOpeningStockDetailEdit.html", tileString, "edit");
+                    //sdg.PKColumn.add("del", "删除", null, null, null, "del");
+
+                    sdg.addWhere("SupplierID", id, "like");
+                    sdg.bind();
+                }
+                else {
+                    sdg.defaultInsertData = { supplierid: id }; //行内编辑 - 新增supplierid指定默认值，
+                    sdg.addWhere("SupplierID", id, "like");
+                    sdg.reload();
+                }
+                $("#sgrid").datagrid({ title: tileString });//从表标题增加主表信息显示
+            },
+        }
+        dg.bind();
+
+    </script>
+
+</body>
+
+</html>

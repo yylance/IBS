@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>在生产订单列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div id="grid3"></div>
+
+        <script type="text/javascript">
+            var dg3 = new AR.DataGrid("V_DCS_OrdLst", "", "grid3");
+            dg3.isEditor = false;
+            dg3.ToolArea.isHidden = false;
+            dg3.ToolBar.BtnAdd.isHidden = true;
+            dg3.ToolBar.BtnDelBatch.isHidden = true;
+            dg3.ToolBar.BtnImport.isHidden = true;
+            dg3.ToolBar.BtnExportTemplate.isHidden = true;
+            dg3.ToolBar.add('自定义', 'Func3', 0, 'btn-lg', "edit");
+            dg3.bind();
+
+
+            function Func3() {
+                alert('Func3');
+                return false;//return false 才能阻碍后续的窗口打开事件。
+                AR.Utility.Window.showMsg('TEST');
+            }
+        </script>
+</body>
+</html>

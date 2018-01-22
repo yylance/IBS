@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>已排程订单列表</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+
+    <div id="grid2"></div>
+
+        <script type="text/javascript">
+            var dg2 = new AR.DataGrid("tProducesDouble", "tProducesDouble", "grid2");
+            dg2.isEditor = false;
+            dg2.ToolArea.isHidden = false;
+            dg2.ToolBar.BtnAdd.isHidden = true;
+            dg2.ToolBar.BtnDelBatch.isHidden = true;
+            dg2.ToolBar.BtnImport.isHidden = true;
+            dg2.ToolBar.BtnExportTemplate.isHidden = true;
+            dg2.options.fitColumns = false;
+            dg2.ToolBar.add('自定义', 'Func', 0, 'btn-lg', "edit");
+            dg2.bind();
+
+
+            function Func() {
+                alert('a111');
+                return false;//return false 才能阻碍后续的窗口打开事件。
+                AR.Utility.Window.showMsg('TEST');
+            }
+        </script>
+</body>
+</html>

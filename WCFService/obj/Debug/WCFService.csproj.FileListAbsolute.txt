@@ -1,0 +1,11 @@
+F:\VS_TMP\Aries-master\Aries.DevFramework\WCFService\bin\WCFService.dll.config
+F:\VS_TMP\Aries-master\Aries.DevFramework\WCFService\bin\WCFService.dll
+F:\VS_TMP\Aries-master\Aries.DevFramework\WCFService\bin\WCFService.pdb
+F:\VS_TMP\Aries-master\Aries.DevFramework\WCFService\obj\Debug\WCFService.dll
+F:\VS_TMP\Aries-master\Aries.DevFramework\WCFService\obj\Debug\WCFService.pdb
+D:\IBS\Aries.DevFramework\WCFService\bin\WCFService.dll.config
+D:\IBS\Aries.DevFramework\WCFService\bin\WCFService.dll
+D:\IBS\Aries.DevFramework\WCFService\bin\WCFService.pdb
+D:\IBS\Aries.DevFramework\WCFService\obj\Debug\WCFService.csprojResolveAssemblyReference.cache
+D:\IBS\Aries.DevFramework\WCFService\obj\Debug\WCFService.dll
+D:\IBS\Aries.DevFramework\WCFService\obj\Debug\WCFService.pdb

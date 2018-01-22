@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>原纸出入库总帐</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+
+<body>
+    <div class="cont-box-form" style="height:30%;width:100%;position:absolute;left:5px;top:2px;">
+        <form>
+            <div class="line">
+                <div class="short">
+                    <label><em>*</em>起始日期：</label>
+                    <input name="StartDate" id="StartDate" class="easyui-datebox easyui-validatebox" date="true" validtype="datebox" style="width: 150px;" required="true" editable="false" />
+                </div>
+                <div class="short">
+                    <label><em>*</em>截止日期：</label>
+                    <input name="EndDate" id="EndDate" class="easyui-datebox easyui-validatebox" date="true" validtype="datebox" style="width: 150px;" required="true" editable="false" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <div style="height:90%;width:100%;position:absolute;left:5px;top:35px;">
+        <div id="mgrid_div" style="height:100%;"><div id="grid1"></div></div>
+    </div>
+
+    <script type="text/javascript">
+        var dg1 = new AR.DataGrid("tPaperStockReport", "", "grid1");
+        dg1.isEditor = false;
+        dg1.isShowCheckBox = true;
+        dg1.ToolArea.isHidden = false;
+        dg1.ToolBar.BtnAdd.isHidden = true;
+        dg1.ToolBar.BtnDelBatch.isHidden = true;
+        dg1.ToolBar.BtnImport.isHidden = true;
+        dg1.ToolBar.BtnExportTemplate.isHidden = true;
+        dg1.ToolBar.add('刷新', 'refresh', 0, 'btn-lg', "edit");
+        dg1.options = {
+            //fitColumns: false,
+            pageSize: 20,
+        };
+        dg1.bind();
+        function refresh() {
+            Confirm();
+            dg1.reload();
+        };
+
+        //日期转换成字符串
+        function formatdate(idate) {
+            var d = new Date(idate);
+            var year = d.getFullYear();
+            var month = (d.getMonth()).toString();
+            var day = (d.getDate()).toString();
+            if (month.length == 1) {
+                month = "0" + month;
+            }
+            if (day.length == 1) {
+                day = "0" + day;
+            }
+            var dateTime = year + "-" + month + "-" + day;
+            return dateTime;
+        }
+
+        function Confirm() {
+            var startdate = $('#StartDate').datebox('getValue');
+            var enddate = $('#EndDate').datebox('getValue');
+            var data = { "paracnt": 2, "para0_name": "StartDate", "para0_value": startdate, "para1_name": "EndDate", "para1_value": enddate };
+            var result = AR.Utility.Ajax.post("RunProcNoQueryWithpara", "GetPaperStockReport", data);
+            if (result) {
+                if (result.success) {
+                    //AR.Utility.Window.showMsg("存储过程执行成功！", "恭喜");
+                }
+                else {
+                    if (result.msg) {
+                        alert(result.msg);
+                    }
+                    else {
+                        var msg = JSON.stringify(result);
+                        if (msg == "{}") { msg = "存储过程执行失败!"; }
+                        alert(msg);
+                    }
+                };
+            }
+        }
+
+    </script>
+</body>
+</html>
+<script>
+        function FirstDayOfmonth(date) {
+            var y = date.getFullYear();
+            var m = date.getMonth() + 1;
+            var d = 1;
+            return y + '-' + (m < 10 ? ('0' + m) : m) + '-' + (d < 10 ? ('0' + d) : d);
+        }
+        function myformatter(date) {
+            var y = date.getFullYear();
+            var m = date.getMonth() + 1;
+            var d = date.getDate();
+            return y + '-' + (m < 10 ? ('0' + m) : m) + '-' + (d < 10 ? ('0' + d) : d);
+        }
+
+        function myparser(s) {
+            if (!s) return new Date();
+            var ss = (s.split('-'));
+            var y = parseInt(ss[0], 10);
+            var m = parseInt(ss[1], 10);
+            var d = parseInt(ss[2], 10);
+            if (!isNaN(y) && !isNaN(m) && !isNaN(d)) {
+                return new Date(y, m - 1, d);
+            } else {
+                return new Date();
+            }
+        }
+        $(function () {
+            //设置时间
+            var curr_time = new Date();
+            $("#StartDate").datebox("setValue", FirstDayOfmonth(curr_time));
+            $("#EndDate").datebox("setValue", myformatter(curr_time));
+        }
+        );
+</script>

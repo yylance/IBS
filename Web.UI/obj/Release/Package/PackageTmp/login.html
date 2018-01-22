@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        IBS智能化工厂管理系统 V1.0
+    </title>
+    <link href="/Style/CSS/login.css" rel="stylesheet" type="text/css" />
+    <script src="/Style/JS/jquery-1.7.1.min.js"></script>
+    <script src="/Style/JS/AriesJS/Aries.Global.js"></script>
+    <script src="/Style/JS/AriesJS/Aries.Utility.js"></script>
+    <script>if (parent != null && parent != this) { parent.location = location.href; }</script>
+</head>
+<body>
+
+    <div class="all">
+        <!--<div class="box_top"></div>-->
+        <div class="box">
+            <h2>IBS智能化工厂管理系统 V1.0</h2>
+            <table border="0" style="text-align: left;width:80%">
+                <tr>
+                    <td class="login_logo"></td>
+                    <td>
+                        <div class="login_r">
+                            <label>用户名</label><br />
+                            <input type="text" value="admin" id="username" class="user a" required="true" />
+
+                            <label>密码</label><br />
+                            <input type="password" id="password" value="111111" required="true" />
+                            <br />
+
+                            <div class="btn">
+                                <input type="button" name="btnLogin" value="登录" onclick="login()" />
+                                <span id="lbTip"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+    <div class="login-foot">
+        <span>Copyright◎2017-2019 J.S. Corrugating Machinery Co., Ltd. All Rights Reserved.</span>
+    </div>
+    <script>
+        document.onkeydown = function (e) {
+            var ev = document.all ? window.event : e;
+            if (ev.keyCode == 13) // Enter
+            {
+                login();
+            }
+        }
+        function login() {
+            var uid = $("#username").val();
+            var pwd = $("#password").val();
+            var date = new Date();//避免浏览器私自缓存
+            var data = { "uid": uid, "pwd": pwd, r: date.getSeconds() };
+            var result = AR.Utility.Ajax.post("Login", null, data);
+            if (result) {
+                if (result.success) {
+                    location.href = "index.html";
+                }
+                else {
+                    if (result.msg) {
+                        alert(result.msg);
+                    }
+                    else {
+                        var msg = JSON.stringify(result);
+                        if (msg == "{}") { msg = "please check web.config's httpmoudle!"; }
+                        alert(msg);
+                    }
+                }
+            }
+        }
+        var user = AR.Utility.Cookie.get('aries_user');
+        if (user) {
+            $("#username").val(user);//记住用户名
+        }
+    </script>
+</body>
+</html>

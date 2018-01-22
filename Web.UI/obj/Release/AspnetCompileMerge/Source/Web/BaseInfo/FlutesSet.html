@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>楞型设置</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style=" height:100%; width:100%; position:absolute;  top:0 ; left:0;">
+        <div class="div_inline" style=" height:95%; width:40%;">
+            <div style="height:60%;">
+                <div id="grid1" title="基本楞型"></div>
+            </div>
+            <div style="height:40%;">
+                <div  id="grid2" title="单瓦机楞型设置"></div>
+            </div>
+
+        </div>
+        <div class="div_inline" style="height:95%;">
+            <table id="grid3" title="楞型配方表"></table>
+        </div>
+        <div class="div_inline" style="height:95%;width:420px">
+            <div id="grid4" title="压线类型设置"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    var dg1 = new AR.DataGrid("tFlutes", "tFlutes", "grid1");
+     dg1.options.sortName= "Code asc",
+     dg1.isEditor = true;
+     dg1.ToolArea.isHidden = false;
+     dg1.ToolBar.BtnExportTemplate.isHidden = true;
+     dg1.bind();
+     var dg2 = new AR.DataGrid("tFlutes4SC", "tFlutes4SC", "grid2");
+     dg2.options.sortName = "SCCode asc"
+     dg2.isEditor = true;
+     dg2.ToolArea.isHidden = false;
+     dg2.ToolBar.BtnExportTemplate.isHidden = true;
+     dg2.ToolBar.add('生成楞型配方表', 'RewritetFlutesFormulas', 10, 'btn-lg', "edit");
+     dg2.bind();
+     var dg3 = new AR.DataGrid("tFlutesFormulas", "tFlutesFormulas", "grid3");
+     dg3.options.sortName = "FormulaCode asc"
+     dg3.isEditor = true;
+     dg3.ToolArea.isHidden = false;
+     dg3.ToolBar.BtnExportTemplate.isHidden = true;
+     dg3.bind();
+     var dg4 = new AR.DataGrid("tLineTypes", "tLineTypes", "grid4");
+     dg4.isEditor = true;
+     //dg3.ToolArea.isHidden = true;
+     dg4.ToolBar.BtnExportTemplate.isHidden = true;
+     dg4.options = {
+         sortName: "fid asc",
+     };
+     dg4.bind();
+     function RewritetFlutesFormulas() {
+         alert('RewritetFlutesFormulas');
+         return false;//return false 才能阻碍后续的窗口打开事件。
+         AR.Utility.Window.showMsg('TEST');
+     }
+</script>

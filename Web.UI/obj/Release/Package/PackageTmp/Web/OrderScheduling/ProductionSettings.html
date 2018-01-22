@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>生产参数设置</title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+</head>
+<body>
+    <div style=" height:100%; width:100%; position:absolute;  top:0 ; left:0;">
+        <div class="div_inline" style="height:95%;width:420px;">
+            <div id="grid1" title="生产参数设置"></div>
+        </div>
+        <div class="div_inline" style="height:95%;width:480px;">
+            <div id="grid2" title="门幅管理"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    var maxWidth=2800, minWidth=1700, maxTrimming=80, minTrimming=20;
+    var dg1 = new AR.DataGrid("tSetting", "tSetting", "grid1");
+    dg1.isEditor = true;
+    dg1.isShowCheckBox = false;
+    dg1.ToolArea.isHidden = true;
+    dg1.PKColumn.Editor.BtnDel.hidden = true;
+    dg1.options = {
+        sortName: "fid asc",
+        //rownumbers: false,
+        pagination: false,
+        
+    };
+    dg1.bind();
+    //maxWidth = $("#grid1").Items[0].Cells[2].Value;
+    //minWidth = $("#grid1").Items[1].Cells[2].Value;
+    //maxTrimming = $("#grid1").Items[3].Cells[2].Value;
+    //minTrimming = $("#grid1").Items[4].Cells[2].Value;
+    var dg2 = new AR.DataGrid("tWdithManage", "tWdithManage", "grid2");
+    dg2.isEditor = true;
+    dg2.ToolBar.BtnExportTemplate.isHidden = true;
+    dg2.options = {
+        sortName: "Width asc",
+        onLoadSuccess: function () {
+        },
+        onEdit: function (index, row) {
+            alert("onAfterEdit:"+index);
+            var width = row.width;
+            var trimming = row.trimmingwidth;
+            if (width < minWidth || width > maxWidth || trimming < minTriming || trimming > maxTrimming) {
+                alert("over");
+                dg2.cancelEdit(index);
+                alert("cancelEdit");
+            }
+                
+           
+        }
+
+    };
+    dg2.bind();
+
+    /*幅宽格式验证*/
+    function widthValidate(value, row, index) {
+        if (value < minWidth || value > maxWidth) {
+            return "<font color='red'>" + value + "</a><img src ='/Style/images/validatebox_warning.png' title='超过范围' style='float:right;'/>";
+        }
+        return value;
+    }
+    function trimmingValidate(value, row, index) {
+        if (value < minTrimming || value > maxTrimming) {
+            return "<font color='red'>" + value + "</a><img src ='/Style/images/validatebox_warning.png' title='超过范围' style='float:right;'/>";
+        }
+        return value;
+    }
+
+</script>
