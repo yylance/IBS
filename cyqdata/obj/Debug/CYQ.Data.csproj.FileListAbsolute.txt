@@ -27,3 +27,13 @@ F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.Properties.Resources.resources
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.csproj.GenerateResource.Cache
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.dll
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.pdb
+E:\Jspack\IBS\cyqdata\bin\Debug\CYQ.Data.XML
+E:\Jspack\IBS\cyqdata\bin\Debug\CYQ.Data.dll
+E:\Jspack\IBS\cyqdata\bin\Debug\CYQ.Data.pdb
+E:\Jspack\IBS\cyqdata\bin\Debug\System.Data.OracleClient.dll
+E:\Jspack\IBS\cyqdata\bin\Debug\zh-CHS\System.Data.OracleClient.resources.dll
+E:\Jspack\IBS\cyqdata\obj\Debug\CYQ.Data.csprojResolveAssemblyReference.cache
+E:\Jspack\IBS\cyqdata\obj\Debug\CYQ.Data.Properties.Resources.resources
+E:\Jspack\IBS\cyqdata\obj\Debug\CYQ.Data.csproj.GenerateResource.Cache
+E:\Jspack\IBS\cyqdata\obj\Debug\CYQ.Data.dll
+E:\Jspack\IBS\cyqdata\obj\Debug\CYQ.Data.pdb

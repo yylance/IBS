@@ -1,0 +1,1 @@
+SELECT ID,DC,SC1Core,SC1Line,SC2Core,SC2Line,SC3Core,SC3Line FROM tPaperBoardInfo
