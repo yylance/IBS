@@ -618,6 +618,7 @@
     <Content Include="Web\OrderScheduling\TobeScheduled.html" />
     <Content Include="Web\Others\aboutPage.html" />
     <Content Include="Web\Others\HomePage.html" />
+    <Content Include="Web\Others\mytest.html" />
     <Content Include="Web\Others\PrintTest.html" />
     <Content Include="Web\PaperManage\PaperOpeningStock.html" />
     <Content Include="Web\PaperManage\PaperOpeningStockDetailEdit.html" />

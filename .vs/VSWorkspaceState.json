@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
     "\\Web.UI",
     "\\Web.UI\\Style",
-    "\\Web.UI\\Style\\JS",
     "\\Web.UI\\Style\\JS\\EasyUI-1.3.4",
     "\\Web.UI\\Style\\JS\\EasyUI-1.3.4\\themes"
   ],
