@@ -66,7 +66,7 @@
   <ItemGroup>
     <Content Include="App_Data\SQLCode\DCS\V_DCS_OrdLst.sql" />
     <Content Include="App_Data\SQLCode\IBSWork\Sql_IBSWork.sql" />
-    <Content Include="App_Data\SQLCode\IBSWork\V_IBS_BoardInfoList.sql" />
+    <Content Include="App_Data\SQLCode\IBSWork\V_IBSWork_BoardInfoList.sql" />
     <Content Include="App_Data\SQLCode\IBSWork\V_PaperBoardOrder_List.sql" />
     <Content Include="App_Data\SQLCode\IBSWork\V_IBS_PaperTotalList.sql" />
     <Content Include="App_Data\SQLCode\IBSWork\V_IBS_BoardOrderTotalList.sql" />
