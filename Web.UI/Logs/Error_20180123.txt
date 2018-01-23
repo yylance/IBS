@@ -1,0 +1,43 @@
+http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:43 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:43 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:43 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:43 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:43 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.7 Record On : 2018-01-23 10:02:44 http://localhost:27532/ajax.html?sys_method=Login&sys_rnd=0.4342737330744316
+Referer:http://localhost:27532/login.html
+---------------------------------------
+
+MsSql Call Function::OpenCon():在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)<br />

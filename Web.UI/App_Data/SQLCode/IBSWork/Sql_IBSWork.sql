@@ -17,11 +17,11 @@ C_FlutesFormulas_FormulaCode = SELECT ID AS value,FormulaCode AS text FROM tFlut
 C_Supplier_Name = SELECT ID AS value,CompanyName AS text FROM tSupplier
 C_Supplier_ID2Description = SELECT ID AS value,Phonetic+'('+CompanyCode+')' AS text FROM tSupplier
 
-C_Custom_ID2Name = SELECT ID AS value,CompanyName AS text FROM tCustoms
-C_Custom_ID2Phonetic = SELECT ID AS value,Phonetic AS text FROM tCustoms
-C_Custom_ID2Code = SELECT ID AS value,CompanyCode AS text FROM tCustoms
-C_Custom_Name2Code = SELECT CompanyName AS value,CompanyCode AS text FROM tCustoms
-C_Custom_Code2Code = SELECT CompanyCode AS value,CompanyCode AS text FROM tCustoms
+C_Custom_ID2Name = SELECT ID AS value,CompanyName AS text FROM tCustom
+C_Custom_ID2Phonetic = SELECT ID AS value,Phonetic AS text FROM tCustom
+C_Custom_ID2Code = SELECT ID AS value,CompanyCode AS text FROM tCustom
+C_Custom_Name2Code = SELECT CompanyName AS value,CompanyCode AS text FROM tCustom
+C_Custom_Code2Code = SELECT CompanyCode AS value,CompanyCode AS text FROM tCustom
 C_Custom_Phonetic2Phonetic = SELECT Phonetic AS value,Phonetic AS text FROM tCustom
 C_StockHouse_Code = SELECT StockHouseCode AS value,StockHouseCode+(Select StockHouseType from tStockHouseType WHERE ID = tStockHouse.Type)AS text FROM tStockHouse
 
