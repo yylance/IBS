@@ -194,7 +194,7 @@ namespace Aries.Core.Extend
 
             foreach (KeyValuePair<string, Dictionary<string, string>> item in DbTables)
             {
-                if (item.Value.ContainsKey(tbname))
+                if (item.Value.ContainsKey(tableName))
                 {
                     return item.Key;
                 }
