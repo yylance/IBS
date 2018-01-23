@@ -681,6 +681,8 @@
     <Content Include="App_Data\SQLCode\SysAdmin\V_SYS_UserList.sql" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="db_Bk\yylance\IBSSYS_DB_BK_20180118" />
+    <Content Include="db_Bk\yylance\IBSSYS_DB_BK_20180119" />
     <None Include="Properties\PublishProfiles\Aries_Publish.pubxml" />
     <Content Include="Resource\Excel\V_Test.xls" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
