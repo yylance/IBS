@@ -181,15 +181,15 @@ namespace Aries.Core.Extend
         public static string GetDBName(string tableName)
         {
             //tablename为一个完整的sql语句时,获取其中的表名
-            string tbname = tableName.ToLower();
-            int index = tbname.IndexOf(" from ");
-            if (index > -1) {
-                tbname = tbname.Substring(index + 1).Trim(' ');
-                int spindex = tbname.IndexOf(" ");
-                if (spindex > 1) {
-                    tbname = tbname.Substring(1, spindex - 1);
-                }
-            }
+            //string tbname = tableName.ToLower();
+            //int index = tbname.IndexOf(" from ");
+            //if (index > -1) {
+            //    tbname = tbname.Substring(index + 1).Trim(' ');
+            //    int spindex = tbname.IndexOf(" ");
+            //    if (spindex > 1) {
+            //        tbname = tbname.Substring(1, spindex - 1);
+            //    }
+            //}
             
 
             foreach (KeyValuePair<string, Dictionary<string, string>> item in DbTables)

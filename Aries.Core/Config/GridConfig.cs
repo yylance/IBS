@@ -130,7 +130,7 @@ namespace Aries.Core.Config
         private static void FillTable(string objName, string objCode, MDataTable dt)
         {
             Dictionary<string, string> fieldTitleDic = GridConfig.FieldTitle;
-            MDataColumn mdc = DBTool.GetColumns((string)CrossDb.GetEnum(objCode), CrossDb.GetDBName(objName));
+            MDataColumn mdc = DBTool.GetColumns((string)CrossDb.GetEnum(objCode));
             MCellStruct cell = null;
             int jointPrimaryCount = mdc.JointPrimary.Count;
             for (int i = 0; i < mdc.Count; i++)

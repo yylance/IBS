@@ -27,3 +27,13 @@ F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.Properties.Resources.resources
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.csproj.GenerateResource.Cache
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.dll
 F:\Jspack\IBS_New\cyqdata\obj\Debug\CYQ.Data.pdb
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\bin\Debug\CYQ.Data.XML
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\bin\Debug\CYQ.Data.dll
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\bin\Debug\CYQ.Data.pdb
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\bin\Debug\System.Data.OracleClient.dll
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\bin\Debug\zh-CHS\System.Data.OracleClient.resources.dll
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\obj\Debug\CYQ.Data.csprojResolveAssemblyReference.cache
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\obj\Debug\CYQ.Data.Properties.Resources.resources
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\obj\Debug\CYQ.Data.csproj.GenerateResource.Cache
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\obj\Debug\CYQ.Data.dll
+F:\Jspack\IBS_New\Aries.DevFramework\cyqdata\obj\Debug\CYQ.Data.pdb
