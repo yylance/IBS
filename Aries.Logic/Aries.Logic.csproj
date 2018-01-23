@@ -51,7 +51,7 @@
     <Compile Include="AriesLogic\SysLogic.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\cyqdata\CYQ.Data.csproj">
+    <ProjectReference Include="..\cyqdata\CYQ.Data.csproj">
       <Project>{bd5ccc87-278f-4feb-ad23-157fcba9ffa1}</Project>
       <Name>CYQ.Data</Name>
     </ProjectReference>
