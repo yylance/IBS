@@ -1,0 +1,8 @@
+F:\Jspack\IBS_New\cyqdata\bin\Release\CYQ.Data.XML
+F:\Jspack\IBS_New\cyqdata\bin\Release\CYQ.Data.dll
+F:\Jspack\IBS_New\cyqdata\bin\Release\System.Data.OracleClient.dll
+F:\Jspack\IBS_New\cyqdata\bin\Release\zh-CHS\System.Data.OracleClient.resources.dll
+F:\Jspack\IBS_New\cyqdata\obj\Release\CYQ.Data.csprojResolveAssemblyReference.cache
+F:\Jspack\IBS_New\cyqdata\obj\Release\CYQ.Data.Properties.Resources.resources
+F:\Jspack\IBS_New\cyqdata\obj\Release\CYQ.Data.csproj.GenerateResource.Cache
+F:\Jspack\IBS_New\cyqdata\obj\Release\CYQ.Data.dll
